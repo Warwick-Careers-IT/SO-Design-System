@@ -17,7 +17,9 @@ The codebase includes build scripts for things like SASS to CSS and static site 
 
 Pushing changes back to the remote git repository will deploy these static build files to the following address:
 
-https://warwick-scs.netlify.com/
+[https://warwick-scs.netlify.com/](https://warwick-so-design-system.netlify.com)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1f3cba9c-a238-4e89-b2ea-1eeec7fd0c88/deploy-status)](https://app.netlify.com/sites/warwick-so-design-system/deploys)
 
 See the [technical docs for more details of how to get setup](docs/technical/introduction.md)
 
