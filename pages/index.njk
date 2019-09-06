@@ -1,106 +1,80 @@
-
 {% extends 'homepage.njk' %}
 
 {% block main_content %}
 
-<div class="app-masthead">
-  <div class="govuk-width-container app-site-width-container">
-      <div class="govuk-grid-row">
-        <div class="govuk-grid-column-two-thirds">
-            <h1 class="govuk-heading-xl app-masthead__title">Design your service using GOV.UK styles, components and&nbsp;patterns</h1>
-            <p class="app-masthead__description">Use this design system to make your service consistent with GOV.UK. Learn from the research and experience of other service teams and avoid repeating work that’s already been done.</p>
-            <a href="/get-started" role="button" draggable="false" class="govuk-button app-button--inverted govuk-!-margin-top-6 govuk-!-margin-bottom-0 govuk-button--start" data-module="govuk-button">
-  Get started
-  <svg class="govuk-button__start-icon" xmlns="http://www.w3.org/2000/svg" width="17.5" height="19" viewBox="0 0 33 40" role="presentation" focusable="false">
-    <path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"></path>
-  </svg>
-</a>
-        </div>
-    </div>
+<section class="hero-image">
+  <picture class="embed-responsive-item">
+    <source srcset="/static-files/images/banners/main-banner-so.png" media="(min-width: 1200px)">
+    <source
+      srcset="https://warwick.ac.uk/scaffold_assets/pg_instagram_homepage_banner_1170x450_time_to_focus_5_no_text.jpg.223460672645"
+      media="(min-width: 992px)">
+    <source
+      srcset="https://warwick.ac.uk/scaffold_assets/pg_instagram_homepage_banner_1170x450_time_to_focus_5_no_text.jpg.223460672645"
+      media="(min-width: 768px)">
+    <img
+      src="https://warwick.ac.uk/scaffold_assets/pg_instagram_homepage_banner_1170x450_time_to_focus_5_no_text.jpg.223460672645"
+      alt="Postgraduate">
+  </picture>
+  <div class="callout-button">
+    <h2>
+      <span class="hero-image-tagline-line2">Design your website using standard styles, components and patterns</span>
+      <span class="hero-image-tagline-line1">Use this design system to make your service consistent with Student
+        Opportunity. Learn from the research and experience of the central team and avoid repeating work that’s already
+        been done.</span>
+
+
+    </h2>
+    <a href="https://warwick.ac.uk/study/postgraduate/" class="btn btn-block btn-accent btn-lg">
+      <!-- CTA button text shown on tablet and desktop -->
+      <span class="hidden-xs">Get Started</span>
+      <!-- CTA button text shown only on mobile -->
+      <span class="visible-xs-inline">Get Started</span>
+      <i class="fal fa-chevron-right"></i>
+    </a>
   </div>
+</section>
+
+<div class="row equal-height-md">
+  <div class="col-md-4">
+    <section class="boxstyle_ box1">
+
+      <h2><a href="//warwick.ac.uk/study/undergraduate/campuslife/accommodation/">Styles</a></h2>
+
+      <p>Finding the right accommodation is key to helping you settle in quickly. We currently have 11
+        self-catering undergraduate halls of residence on campus. Our own student property management and
+        lettings agency manages more than 8,000 rooms both on and off campus, and provides advice to all
+        full-time undergraduates.</p>
+
+    </section>
+  </div>
+
+  <div class="col-md-4">
+    <section class="boxstyle_ box1">
+
+
+      <h2><a href="//warwick.ac.uk/study/undergraduate/campuslife/ourcampus/">Components</a></h2>
+
+      <p>You won't be short of ways to spend your time on campus - whether it's visiting the award-winning
+        Warwick Arts Centre, using our many sports facilities, socialising in our bars and cafés, or
+        enjoying an open-air event. But there are peaceful spots too, with lakes, woodland and green spaces
+        just a few minutes’ walk from central campus.</p>
+
+    </section>
+  </div>
+
+  <div class="col-md-4">
+    <section class="boxstyle_ box1">
+
+      <h2><a href="//warwick.ac.uk/study/undergraduate/campuslife/societies/">Patterns</a></h2>
+
+      <p>We currently have more than 300 student-run societies. So whether you’re into films, astronomy,
+        gaming or musical theatre, you can instantly connect with people with similar interests. Or you
+        could try something new – Bhangra dancing or circus skills anyone?</p>
+
+    </section>
+  </div>
+
 </div>
-
-<div class="govuk-main-wrapper govuk-main-wrapper--l">
-    <div class="govuk-grid-row">
-      <div class="govuk-grid-column-one-third govuk-!-margin-bottom-8">
-        <h2 class="govuk-heading-l govuk-!-font-weight-bold">Styles</h2>
-        <p class="govuk-body">Make your service look like GOV.UK with guides for applying layout, typography, colour and&nbsp;images.</p>
-        <p class="govuk-body govuk-!-margin-bottom-0"><a href="/styles/" class="govuk-link govuk-!-font-weight-bold">Browse styles</a></p>
-      </div>
-      <div class="govuk-grid-column-one-third govuk-!-margin-bottom-8">
-        <h2 class="govuk-heading-l">Components</h2>
-        <p class="govuk-body">Save time with reusable, accessible components for forms, navigation, panels, tables and&nbsp;more.</p>
-        <p class="govuk-body govuk-!-margin-bottom-0"><a href="/components/" class="govuk-link govuk-!-font-weight-bold">Browse components</a></p>
-      </div>
-      <div class="govuk-grid-column-one-third govuk-!-margin-bottom-8">
-        <h2 class="govuk-heading-l">Patterns</h2>
-        <p class="govuk-body">Help users complete common tasks like entering names and addresses, filling in forms and creating accounts.</p>
-        <p class="govuk-body govuk-!-margin-bottom-0"><a href="/patterns/" class="govuk-link govuk-!-font-weight-bold">Browse patterns</a></p>
-      </div>
-
-      <div class="govuk-grid-column-full">
-        <hr class="govuk-section-break govuk-section-break--visible govuk-section-break--xl govuk-!-margin-top-0">
-      </div>
-
-      <div class="govuk-grid-column-two-thirds">
-        <h2 id="community" class="govuk-heading-l">Community</h2>
-        <p class="govuk-body">
-          The GOV.UK Design System is for everyone, with a strong community sitting behind it. It brings together the latest research, design and development from across government to make sure it’s representative and relevant for its users.</p>
-
-        <p class="govuk-body">
-          You can contribute to the Design System by: 
-        </p>
-        <ul class="govuk-list govuk-list--bullet">
-          <li><a href="/community/propose-a-component-or-pattern" class="govuk-link" data-hcontribute="guidelinegh">proposing a new component or pattern</a></li>
-          <li><a href="/community/develop-a-component-or-pattern" class="govuk-link" data-hcontribute="guidelinegh">developing a component or pattern</a></li>
-        </ul> 
-
-        <p class="govuk-body">
-          You can also see what people are currently working on in the <a href="/community/backlog" class="govuk-link" data-hcontribute="guidelinegh">community backlog</a>.
-        </p>
-
-      </div>
-
-      <div class="govuk-grid-column-full">
-        <hr class="govuk-section-break govuk-section-break--visible govuk-section-break--xl">
-      </div>
-
-      <div class="govuk-grid-column-two-thirds">
-        <h2 id="support" class="govuk-heading-l">Support</h2>
-        <p class="govuk-body">
-          The GOV.UK Design System is maintained by the Government Digital Service.
-          If you’ve got a question, idea or suggestion you can:
-        </p>
-        <ul class="govuk-list govuk-list--bullet govuk-!-margin-bottom-0">
-        <li>
-          email 
-          <a href="mailto:govuk-design-system-support@digital.cabinet-office.gov.uk" class="govuk-link" data-hsupport="email">
-            govuk-design-system-support@digital.cabinet-office.gov.uk
-          </a>
-        </li>
-        <li>
-          get in touch using the 
-          <a href="https://ukgovernmentdigital.slack.com/app_redirect?channel=govuk-design-system" class="govuk-link" data-hsupport="slack">
-            #govuk-design-system channel on cross-government Slack</a>
-        </li>
-        </ul>
-      </div>
-
-      <div class="govuk-grid-column-full">
-        <hr class="govuk-section-break govuk-section-break--visible govuk-section-break--xl">
-      </div>
-
-      <div class="govuk-grid-column-two-thirds govuk-!-mb-r4">
-        <h2 class="govuk-heading-l">Roadmap</h2>
-        <p class="govuk-body">
-          See what the Design System team at GDS is planning to work on over the next 12 months in the
-          <a href="https://github.com/orgs/alphagov/projects/5?fullscreen=true" class="govuk-link" data-hcontribute="guidelinegh">GOV.UK Design System Roadmap (on GitHub)</a>.
-        </p>
-      </div>
-
-    </div>
-  </div>
-
 
 
 {% endblock %}
