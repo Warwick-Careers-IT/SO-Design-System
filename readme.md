@@ -1,26 +1,19 @@
 
 
-# Warwick SCS Prototyping Kit and Design System
+# Student Opportunity Design System
 
-This kit provides:
+Use this design system to make your service consistent with Student Opportunity. Learn from the research and experience of SO IT Team and Central Warwick Web Team and avoid repeating work that’s already been done.
 
-1. **A local development environment with design components, templates and a way to quickly publish prototypes to share with others.**
-2. **Documentation on how to use the SCS design system**
-
-
-The kit is not a production framework. Don't use the kit as a base for a production service.
 
 ## local prototyping environment
 
-This codebase allows you to quickly get a local node server running using nunjucks templating, Express, SASS compiling and LiveReload. This drastically speed up development time during the prototyping/development phase. It includes the latest warwick ID7 design as nunjucks templates.
+This codebase allows you to quickly get a local node server running using nunjucks templating, Express, SASS compiling and LiveReload. This drastically speed ups UI compoment development and documentation. It includes the latest warwick ID7 design as nunjucks templates.
 
 The codebase includes build scripts for things like SASS to CSS and static site generation. Running:
 
 ```javascript
   gulp build
 ```
-
-Will deploy the site in the dist directory for use as a demo you can share with others.
 
 Pushing changes back to the remote git repository will deploy these static build files to the following address:
 
