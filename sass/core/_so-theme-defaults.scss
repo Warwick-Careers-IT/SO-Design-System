@@ -1,19 +1,29 @@
 @media (min-width:768px) {
     .id7-right-border {
-        background-image: url("/static-files/images/rhsborder-greyshafts.jpg")
+        background-image: none;
+        background-color: $so-brand-sky_blue;
     }
 }
 
 @media (min-width:768px) {
     .id7-left-border {
-          background-image:url("/static-files/images/lhsborder-greyshafts.jpg")
+        background-image: none;
+        background-color: $so-brand-sky_blue;
     }
 }
 
 .id7-utility-masthead {
-    background-image: url("/static-files/images/masthead_1170x110_pg_business.jpg")
+    background-color: $so-brand-dark_blue;
+    background-image: none;
 }
 
+.id7-utility-masthead::after {
+    background-color: $so-brand-dark_blue
+}
+
+.id7-navigation .navbar-primary {
+    background-color: $so-brand-dark_blue
+}
 
 h1,
 h2,
@@ -27,7 +37,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    color: $scs-colour-black;
+    color: $so-brand-black;
 }
 
 a,
@@ -214,17 +224,6 @@ fieldset[disabled] .btn-brand.focus {
     text-decoration: none
 }
 
-.id7-utility-masthead {
-    background-color: #5ea3b5
-}
-
-.id7-utility-masthead::after {
-    background-color: #197b96
-}
-
-.id7-navigation .navbar-primary {
-    background-color: #197b96
-}
 
 .id7-navigation .navbar-primary.navbar-primary.navbar-wrapped>.navbar-nav>li {
     color: white
@@ -645,8 +644,8 @@ fieldset[disabled] .navbar-tertiary .btn-link:focus {
 }
 
 .id7-page-footer .id7-app-footer {
-    background: #197b96;
-    color: white
+    background: $so-brand-dark_blue;
+    color: white;
 }
 
 .id7-page-footer .id7-app-footer h1,

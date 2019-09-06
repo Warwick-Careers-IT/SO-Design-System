@@ -6,22 +6,21 @@
         flex: 0 1 auto;
         position: relative;
         min-height: 1px;
-        padding-right: 10px;
-        padding-left: 10px;
-        text-align: center;
-        text-transform: uppercase
+        padding-left: 50px;
+        text-align: left;
+        text-transform: none
     }
 
     html.flexbox .hero-image .callout-button h2 .hero-image-tagline-line1 {
         display: block;
-        font-size: 28px;
-        letter-spacing: 6px
+        font-size: 22px;
+        letter-spacing: 0px
     }
 
     html.flexbox .hero-image .callout-button h2 .hero-image-tagline-line2 {
         display: block;
-        font-size: 54px;
-        letter-spacing: 7px
+        font-size: 26px;
+        letter-spacing: 0px
     }
 
     html.flexbox .hero-image .callout-button .btn {
@@ -71,7 +70,7 @@
 
 @media screen and (min-width: 768px) {
     html.flexbox .hero-image {
-        margin-bottom: 0;
+        margin-bottom: 20px;
         overflow: hidden
     }
 }
@@ -143,16 +142,17 @@
 
 @media screen and (min-width: 768px) and (min-width:1200px) {
     html.flexbox .hero-image .callout-button h2 .hero-image-tagline-line1 {
-        font-size: 30px;
-        letter-spacing: 7px
+        font-size: 22px;
+        //letter-spacing: 1px
     }
 }
 
 @media screen and (min-width: 768px) and (min-width:1200px) {
     html.flexbox .hero-image .callout-button h2 .hero-image-tagline-line2 {
-        font-size: 80px;
-        letter-spacing: 7.2px;
-        line-height: 86px
+        font-size: 40px;
+        margin-bottom: 15px;
+        //letter-spacing: 1.2px;
+        //line-height: 86px
     }
 }
 
@@ -160,7 +160,8 @@
     html.flexbox .hero-image .callout-button .btn {
         float: left;
         width: 25%;
-        margin-left: 12% !important
+        margin-left: 50px;
+        margin-top: 10px;
     }
 }
 
@@ -168,7 +169,8 @@
     html.flexbox .hero-image .callout-button .btn {
         float: left;
         width: 25%;
-        margin-left: 12% !important
+        margin-left: 50px;
+        margin-top: 10px;
     }
 }
 

@@ -1,0 +1,119 @@
+
+.hp-layout .div-content-placeholder {
+    display: none
+}
+
+.hp-layout .row-spacer {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.hp-layout .wrap {
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap
+}
+
+.hp-layout p.editLink {
+    padding-right: 0;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    padding-top: 4px
+}
+
+.hp-layout a.edit-link {
+    background-color: lightgrey;
+    padding: 3px 6px;
+    outline: 1px solid purple
+}
+
+.hp-layout a.edit-link .fa {
+    padding-right: 2px
+}
+
+.hp-layout .contributor-btns {
+    z-index: 1000;
+    position: absolute;
+    margin: 5px 0 0 10px
+}
+
+.hp-layout .contributor-btns a.btn {
+    -webkit-box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5)
+}
+
+.hp-layout .contributor-btns a .new-window-link {
+    color: #fff
+}
+
+@media (min-width:992px) {
+    .hp-layout {
+        position: relative;
+        z-index: 0
+    }
+    .hp-layout .box {
+        word-break: break-word
+    }
+    .hp-layout figure.flush-top {
+        margin-bottom: 20px
+    }
+}
+
+
+
+@media (min-width:992px) {
+    .hp-layout figure.hasImage {
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 20px
+    }
+    .hp-layout figure.hasImage.set-height {
+        min-height: 19vw
+    }
+    .hp-layout figure.hasImage figcaption {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        padding: 20px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.7) 80px, rgba(0, 0, 0, 0.8) 100%);
+        background-repeat: repeat-x;
+    }
+
+    .hp-layout figure.hasImage figcaption h2,
+    .hp-layout figure.hasImage figcaption h3,
+    .hp-layout figure.hasImage figcaption h4,
+    .hp-layout figure.hasImage figcaption h5,
+    .hp-layout figure.hasImage figcaption h6,
+    .hp-layout figure.hasImage figcaption a {
+        color: white
+    }
+    .hp-layout figure.hasImage figcaption a:hover {
+        color: lightGrey
+    }
+}
+
+@media (min-width:992px) and (min-width:1200px) {
+    .hp-layout figure.hasImage.set-height {
+        min-height: 240px
+    }
+}
+
+.hp-layout .contributor-btns {
+    z-index: 1000;
+    position: absolute;
+    margin: 5px 0 0 10px
+}
+
+.hp-layout .contributor-btns a.btn {
+    -webkit-box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5)
+}
+
+.hp-layout .contributor-btns a .new-window-link {
+    color: #fff
+}

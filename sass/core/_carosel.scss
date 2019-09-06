@@ -1,0 +1,219 @@
+.carousel .carousel-indicators li::after {
+    color: #197b96;
+    color: rgba(25, 123, 150, 0.3)
+}
+
+.carousel .carousel-indicators li.active::after {
+    color: #197b96
+}
+
+.hp-layout.slideshow-2017 .carousel {
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+.hp-layout.slideshow-2017 .carousel .carousel-caption {
+    text-align: left;
+    position: static;
+    padding: 20px;
+    background-color: transparent;
+    text-shadow: none;
+    min-height: 119.9px
+}
+
+.hp-layout.slideshow-2017 .carousel .carousel-caption p {
+    padding-right: 0
+}
+
+.hp-layout.slideshow-2017 .carousel .carousel-caption p:last-child {
+    margin-bottom: 22px
+}
+
+.hp-layout.slideshow-2017 .carousel .carousel-caption h2,
+.hp-layout.slideshow-2017 .carousel .carousel-caption h3,
+.hp-layout.slideshow-2017 .carousel .carousel-caption h4,
+.hp-layout.slideshow-2017 .carousel .carousel-caption h5,
+.hp-layout.slideshow-2017 .carousel .carousel-caption h6,
+.hp-layout.slideshow-2017 .carousel .carousel-caption a {
+    color: white
+}
+
+.hp-layout.slideshow-2017 .carousel .carousel-caption a:hover {
+    color: lightGrey
+}
+
+.hp-layout.slideshow-2017 .carousel .carousel-inner>.item>img {
+    min-width: 100%
+}
+
+.hp-layout.slideshow-2017 .carousel .controller-container {
+    position: inherit;
+    height: 40px;
+    z-index: 11;
+    bottom: 10px;
+    background-color: transparent
+}
+
+.hp-layout.slideshow-2017 .carousel a.carousel-control {
+    background-image: none
+}
+
+.hp-layout.slideshow-2017 .carousel a.carousel-control::after {
+    content: none
+}
+
+.hp-layout.slideshow-2017 .carousel a.carousel-control .glyphicon-chevron-left,
+.hp-layout.slideshow-2017 .carousel a.carousel-control .glyphicon-chevron-right {
+    margin-top: -25px
+}
+
+.hp-layout.slideshow-2017 .carousel a.carousel-control .glyphicon {
+    font-size: 1.6em
+}
+
+.hp-layout.slideshow-2017 .carousel .carousel-indicators {
+    position: static;
+    width: auto;
+    height: 40px;
+    margin-left: 0
+}
+
+.hp-layout.slideshow-2017 .carousel .carousel-indicators li {
+    margin: 0 4px;
+    height: 20px;
+    width: 20px;
+    border-width: 2px;
+    border-color: #fff
+}
+
+.hp-layout.slideshow-2017 .carousel .carousel-indicators li.active {
+    background-color: #fff
+}
+
+@media (min-width:768px) {
+    .hp-layout.slideshow-2017 .carousel .carousel-inner>.item>img {
+        height: auto
+    }
+
+    .hp-layout.slideshow-2017 .carousel .controller-container {
+        bottom: 10px;
+        right: auto
+    }
+
+    .hp-layout.slideshow-2017 .carousel .carousel-caption.col-sm-6 {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        bottom: 10px;
+        left: auto
+    }
+
+    .hp-layout.slideshow-2017 .carousel a.carousel-control::after {
+        color: white
+    }
+
+    .hp-layout.slideshow-2017 .carousel .carousel-indicators {
+        padding-right: 0
+    }
+
+    .hp-layout.slideshow-2017 .carousel .carousel-indicators li {
+        border-color: white
+    }
+
+    .hp-layout.slideshow-2017 .carousel .carousel-indicators li.active {
+        background-color: white
+    }
+}
+
+@media (min-width:992px) {
+    .hp-layout.slideshow-2017 .carousel .controller-container {
+        position: absolute;
+        background-color: transparent;
+        bottom: 20px;
+        right: 20px
+    }
+
+    .hp-layout.slideshow-2017 .carousel .controller-container.col-md-6 {
+        width: 46%
+    }
+
+    .hp-layout.slideshow-2017 .carousel .carousel-caption.col-md-4,
+    .hp-layout.slideshow-2017 .carousel .carousel-caption.col-md-6 {
+        position: absolute;
+        right: 20px;
+        left: auto;
+        top: auto;
+        bottom: 20px;
+        padding-bottom: 40px;
+        background-color: rgba(0, 0, 0, 0.8)
+    }
+
+    .hp-layout.slideshow-2017 .carousel .carousel-caption.col-md-4 {
+        width: calc(33.33% + 20px / 2)
+    }
+
+    .hp-layout.slideshow-2017 .carousel .carousel-caption.col-md-6 {
+        width: 46%
+    }
+
+    .hp-layout.slideshow-2017 .carousel .carousel-indicators {
+        padding-right: 0
+    }
+}
+
+.hp-layout.slideshow-light-theme .carousel {
+    background-color: rgba(255, 255, 255, 0.82)
+}
+
+.hp-layout.slideshow-light-theme .carousel .carousel-caption {
+    background-color: rgba(255, 255, 255, 0.82);
+    color: #383838
+}
+
+.hp-layout.slideshow-light-theme .carousel .carousel-caption h2,
+.hp-layout.slideshow-light-theme .carousel .carousel-caption h3,
+.hp-layout.slideshow-light-theme .carousel .carousel-caption h4,
+.hp-layout.slideshow-light-theme .carousel .carousel-caption h5,
+.hp-layout.slideshow-light-theme .carousel .carousel-caption h6 {
+    color: #383838
+}
+
+.hp-layout.slideshow-light-theme .carousel .carousel-caption a,
+.hp-layout.slideshow-light-theme .carousel .carousel-caption a:active,
+.hp-layout.slideshow-light-theme .carousel .carousel-caption a:focus {
+    color: #197b96
+}
+
+.hp-layout.slideshow-light-theme .carousel .carousel-caption a:hover {
+    color: #383838
+}
+
+.hp-layout.slideshow-light-theme .carousel a.carousel-control {
+    color: #6f6f6f
+}
+
+.hp-layout.slideshow-light-theme .carousel .carousel-indicators li {
+    border-color: #383838
+}
+
+.hp-layout.slideshow-light-theme .carousel .carousel-indicators li.active {
+    background-color: #383838
+}
+
+.hp-layout.slideshow-light-theme .carousel a.left.carousel-control,
+.hp-layout.slideshow-light-theme .carousel a.right.carousel-control {
+    color: #706768
+}
+
+.hp-layout.slideshow-light-theme .carousel a:hover.left.carousel-control,
+.hp-layout.slideshow-light-theme .carousel a:hover.right.carousel-control {
+    color: #383838
+}
+
+@media (min-width:992px) {
+
+    .hp-layout.slideshow-light-theme .carousel .carousel-caption.col-md-4,
+    .hp-layout.slideshow-light-theme .carousel .carousel-caption.col-md-6 {
+        background-color: rgba(255, 255, 255, 0.82)
+    }
+}

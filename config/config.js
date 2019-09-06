@@ -15,7 +15,7 @@ module.exports = {
   njk: {
     // Add custom variables to be inserted into the HTML templates
     templateVars: {
-      version : 'Development v1.1',
+      version : 'SO Design System v1.1',
       publishdate : currentdate
     },
   },

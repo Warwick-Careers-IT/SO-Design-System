@@ -1,190 +1,93 @@
-/* white space */
-.scs-content-block-pad {
-  @include tablet {
-    padding-left: 40px!important;
-    padding-right: 0px!important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: $so-brand-black;
+}
+
+a,
+a:link,
+a:visited {
+  color: #197b96
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #0a333f
+}
+
+a:hover .new-window-link,
+a:hover .insecure-link {
+  color: #0a333f
+}
+
+a,
+a:link,
+a:visited {
+  -webkit-text-decoration-color: #5ea3b5;
+  text-decoration-color: #5ea3b5
+}
+
+a:hover,
+a:focus,
+a:active {
+  -webkit-text-decoration-color: #0a333f;
+  text-decoration-color: #0a333f
+}
+
+
+.id7-main-content {
+  font-size: 16px
+}
+
+@media (min-width: 768px) {
+  .id7-main-content {
+    font-size: 18px
   }
 }
-.scs-content-pad-top-30 {
-  margin-top: 30px;
+
+.id7-main-content p {
+  margin: 0 0 14.5px
 }
 
-.scs-content-pad-top-20 {
-  margin-top: 20px;
+.id7-main-content .lead {
+  font-size: 18px
 }
 
-.scs-content-pad-left-15 {
-  margin-left: 15px;
-}
-
-/* typography */
-
-h1 {
-  margin-bottom: 30px;
-  font-size: 32px;
-  line-height: 36px;
-  border-bottom: 0px;
-
-    @media (min-width:768px) {
-      font-size: 48px;
-      line-height: 50px;
-    }
-}
-
-a {
-  text-decoration: underline;
-  color: $scs-colour-blue;
-    &:visited {
-      color: $scs-colour-blue;
-      text-decoration: none;
-    }
-    &:link {
-      color: $scs-colour-blue;;
-    }
-    &:hover {
-    color: $scs-colour-light-blue;
-    }
-}
-
-/* typography for content pages main blockquote */
-.scs-content-main-block {
-
-  h2.guide-page-title {
-    font-size: 32px!important;
-    @include tablet {
-      font-size: 32px!important;
-      line-height: 50px;
-    }
+@media (min-width: 768px) {
+  .id7-main-content .lead {
+    font-size: 21px
   }
+}
 
-  h1 {
-  margin-bottom: 25px;
-  font-size: 21px;
-  font-weight: 700;
-    @include tablet {
-        font-size: 46px;
-        line-height: 1.25
-    }
-  }
+.h2,
+h2 {
+  font-size: 31px
+}
 
+.h3,
+h3 {
+  font-size: 23px
+}
+
+@media (min-width: 768px) {
+
+  .h2,
   h2 {
-  margin-bottom: 15px;
-  margin-top: 30px;
-  font-size: 18px;
-  font-weight: 700;
-
-    @include tablet {
-        font-size: 25px;
-        line-height: 1.25
-    }
+    font-size: 36px
   }
+
+  .h3,
   h3 {
-    margin-bottom: 5px;
-    font-size: 18px;
-    color: black;
-    font-weight: 700;
-    margin-top: 35px;
-
-    @include tablet {
-        font-size: 21px;
-        line-height: 1.25
-    }
-  }
-
-  h4 {
-    margin-bottom: 5px;
-    font-size: 16px;
-    color: black;
-    font-weight: 700;
-    margin-top: 35px;
-
-    @include tablet {
-        font-size: 19px;
-        line-height: 1.25
-    }
-  }
-
-
-
-
-
-  p {
-  font-size: $main-font-size;
-  line-height: 1.2;
-  font-weight: 400;
-  color: #0b0c0c;
-
-      @include tablet {
-        font-size: 18px;
-        line-height: 1.3157894737
-    }
-  }
-  ul {
-    line-height: 1.5;
-    list-style-type: disc;
-    padding-left: 1em;
-    margin-top: 1.5em;
-    margin-bottom: 2.5em;
-    margin-left: 5px;
-    color: #0b0c0c;
-  }
-
-  ol {
-    line-height: 1.5;
-    padding-left: 1em;
-    margin-top: 1.5em;
-    margin-bottom: 2.5em;
-    margin-left: 5px;
-    color: #0b0c0c;
-  }
-
-  li {
-    font-size: $main-font-size;
-    line-height: 25px;
-
-    @include tablet {
-          font-size: 18px;
-    }
-  }
-  .info-notice {
-      border-left: 1em solid #dee0e2;
-      padding: 1em 0 1em 1em;
-      margin: 2em 0;
+    font-size: 26px
   }
 }
-
-
-/* typography for content page side menu */
-.scs-navigation-side-menu {
-    padding: 20px 0px 10px 0px;
-    font-size: 16px;
-    h2 {
-      font-weight: 600;
-      text-transform: none;
-      font-size: 18px;
-      line-height: 1.25;
-      margin-bottom: 10px;
-    }
-    h3 {
-      font-weight: 400;
-      text-transform: none;
-      font-size: 16px;
-      line-height: 1.25;
-      margin-bottom: 10px;
-    }
-    ul {
-      list-style-type: none;
-      padding-left: 0px;
-      margin-left: 0px;
-      margin-bottom: 20px;
-    }
-
-
-  }
-
-
-  .scs-navigation-side-menu-topic {
-    a {
-      font-weight: 600 ;
-    }
-  }
