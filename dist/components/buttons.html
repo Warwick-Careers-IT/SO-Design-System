@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en-GB" class="no-js"> <!-- class="id7-non-branded" to remove Warwick branding -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Include any favicons here -->
+  <link rel="shortcut icon" href="">
+  <meta name="theme-color" content="#5b3069">
+  <!-- Use the brand colour of the site -->
+
+  <title>SO Design System</title>
+
+  <!-- Lato web font -->
+  <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic&amp;subset=latin,latin-ext"
+      rel="stylesheet" type="text/css">
+
+  <link href="https://warwick.ac.uk/static_war/render/id7/css/pack7.css"
+      rel="stylesheet" type="text/css">
+  
+
+
+
+  <!-- ID7 -->
+  <link href="/static-files/css/id7.css" rel="stylesheet">
+
+  <!-- Default styling. You will probably want to replace with your own site.css -->
+
+  <link href="/static-files/css/site.css" rel="stylesheet">
+
+  <script src="/static-files/js/id7-bundle.min.js"></script>
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css"
+/>
+
+
+
+</head>
+<body>
+  <div class="id7-left-border"></div>
+  <div class="id7-fixed-width-container">
+    <a class="sr-only sr-only-focusable" href="#main">Skip to main content</a>
+
+    <header class="id7-page-header">
+      <div class="id7-utility-masthead">
+        <nav class="id7-utility-bar">
+          <!-- Include the utility bar component here if used -->
+          <span class='versioning'> <strong> SO Design System v1.1 / <strong>Last published:</strong>  2019/09/09 04:47 p.m.</span>
+        </nav>
+
+        <div class="id7-masthead">
+          <div class="id7-masthead-contents">
+            <div class="clearfix">
+              <div class="id7-logo-column">
+                <!-- Don't include the logo row on non-branded sites -->
+                <div class="id7-logo-row">
+                  <div class="id7-logo">
+                    <a href="http://warwick.ac.uk" title="Warwick homepage">
+                      <img src="static-files/images/shim.gif" alt="Warwick">
+                    </a>
+                  </div>
+                  <nav class="id7-site-links">
+                    <ul>
+                      <li><a href="https://warwick.ac.uk/study">Study</a></li>
+                      <li><a href="https://warwick.ac.uk/research">Research</a></li>
+                      <li><a href="https://warwick.ac.uk/business">Business</a></li>
+                      <li><a href="https://warwick.ac.uk/alumni">Alumni</a></li>
+                      <li><a href="https://warwick.ac.uk/news">News</a></li>
+                      <li><a href="https://warwick.ac.uk/engagement">Engagement</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <div class="id7-search-column">
+                <div class="id7-search">
+                  <form action="//search.warwick.ac.uk/website" role="search">
+                    <input type="hidden" name="source" value="http://warwick.ac.uk/"> <!-- Replace with the current page URL -->
+                    <div class="form-group">
+                      <label class="sr-only" for="id7-search-box">Search</label>
+                      <div class="id7-search-box-container">
+                        <input type="search" class="form-control input-lg" id="id7-search-box" name="q" placeholder="Search Warwick" data-suggest="go">
+                        <i class="fa fa-search fa-2x"></i>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <div class="id7-header-text clearfix">
+              <h1>
+                <span class="id7-current-site-link"><a href="#"> Student Opportunity </a> > Design System</span>
+                
+              </h1>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Docs master nav -->
+      <div class="id7-navigation">
+      <nav class="navbar navbar-primary hidden-xs" role="navigation">
+  <ul class="nav navbar-nav">
+    <li class="first protected" >
+      <a href="/advice/topic_advice-and-appointments.html">Get started</a>
+    </li>
+    <li> <a href="/options/topic_future-options.html">Styles</a>
+    </li>
+    <li> <a href="/experience/topic_get-work-experience.html">Components</a>
+    </li>
+    <li> <a href="/job-searching/topic_job-searching.html">Patterns</a>
+    </li>
+    <li> <a href="/applications/topic_job-applications.html">Help</a>
+    </li>
+
+  </ul>
+</nav>
+
+      </div>
+    </header>
+
+
+<main class="id7-main-content-area" id="main">
+    <header class="id7-main-content-header"></header>
+
+    <div id="main" class="id7-main-content-area">
+        <div class="id7-main-content">
+            <div class="layout layout-25-75">
+                <div class="column-1">
+                    <div class="column-1-content">
+                        <nav class="app-subnav">
+          <ul class="app-subnav__section">
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/accordion/">Accordion</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/back-link/">Back link</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/breadcrumbs/">Breadcrumbs</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/button/">Button</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/character-count/">Character count</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/checkboxes/">Checkboxes</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/date-input/">Date input</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/details/">Details</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/error-message/">Error message</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/error-summary/">Error summary</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/fieldset/">Fieldset</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/file-upload/">File upload</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/footer/">Footer</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/header/">Header</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/inset-text/">Inset text</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/panel/">Panel</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/phase-banner/">Phase banner</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/radios/">Radios</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/select/">Select</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/skip-link/">Skip link</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/summary-list/">Summary list</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/table/">Table</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item ">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/tabs/">Tabs</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/tag/">Tag</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/text-input/">Text input</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/textarea/">Textarea</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/warning-text/">Warning text</a>
+              
+            </li>
+          
+          </ul>
+        
+</nav>
+                    </div>
+                </div>
+                <div class="column-2">
+                    <div class="column-2-content">
+                        <h1>
+                            
+Buttons
+
+                        </h1>
+                        
+<p>
+    Buttons allow users to take actions, and make choices, with a single tap. Don't use them instead of a link.
+
+    ID7 comes with Bootstrap button baked in, see the Bootstrap docs for <a
+        href="https://getbootstrap.com/docs/4.0/components/buttons/">full details </a> including sizing buttons.</p>
+</p>
+
+<p><strong>Buttons should alway use the secondary colour of the SO palette, see below. </strong></p>
+
+<h4>Basic button: </h4>
+
+<a href="#" class="btn btn-lg btn-brand-secondary">Apply for Internship</a>
+
+<!-- snippet start -->
+<pre id="button-2" class="line-numbers language-markup snippet">
+<code>
+ <script type="prism-html-markup">
+<a href="#" class="btn btn-lg btn-brand-secondary">Apply for Internship</a>
+  </script>
+</code>
+</pre>
+<button class="btn btn-default" data-clipboard-target="#button-2">Copy snippet <i class="fal fa-copy"></i></button>
+
+
+<hr>
+
+<h4>Button with icon: </h4>
+
+
+<a href="#" class="btn btn-brand-secondary btn-lg">
+    <!-- CTA button text shown on tablet and desktop -->
+    <span class="hidden-xs">Get Started</span>
+    <!-- CTA button text shown only on mobile -->
+    <span class="visible-xs-inline">Get Started</span>
+    <i class="fal fa-chevron-right"></i>
+</a>
+
+<!-- snippet start -->
+<pre id="button-2" class="line-numbers language-markup snippet">
+<code>
+ <script type="prism-html-markup">
+<a href="#" class="btn btn-brand-secondary btn-lg">
+    <!-- below button text shown on tablet and desktop -->
+    <span class="hidden-xs">Get Started</span>
+    <!-- below button text shown only on mobile inlined -->
+    <span class="visible-xs-inline">Get Started</span>
+    <i class="fal fa-chevron-right"></i>
+</a>
+  </script>
+</code>
+</pre>
+<button class="btn btn-default" data-clipboard-target="#button-2">Copy snippet <i class="fal fa-copy"></i></button>
+<!-- snippet end -->
+
+<hr>
+<p>If contrast is an issue use the primary palette color:</p>
+
+<a href="#" class="btn btn-lg btn-brand-primary">Make an appointment</a>
+<pre id="button-3" class="line-numbers language-markup snippet">
+<code>
+ <script type="prism-html-markup">
+<a href="#" class="btn btn-lg btn-brand-primary">Apply for Internship</a>
+  </script>
+</code>
+</pre>
+<button class="btn btn-default" data-clipboard-target="#button-3">Copy snippet <i class="fal fa-copy"></i></button>
+
+
+<hr>
+<h4>Outline variation:</h4>
+
+<a href="#" class="btn btn-lg btn-brand-secondary__outlined">Apply for Internship</a>
+<pre id="button-4" class="line-numbers language-markup snippet">
+<code>
+ <script type="prism-html-markup">
+<a href="#" class="btn btn-lg btn-brand-secondary__outlined">Apply for Internship</a>
+  </script>
+</code>
+</pre>
+<button class="btn btn-default" data-clipboard-target="#button-4">Copy snippet <i class="fal fa-copy"></i></button>
+
+
+
+
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</main>
+
+
+<footer class="id7-page-footer id7-footer-coloured">
+  <!-- one of id7-footer-coloured or id7-footer-divider -->
+
+  <div class="id7-site-footer">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="row">
+          <h3 class="col-xs-12">Also on our site…</h3>
+
+          <div class="col-sm-6">
+            <ul class="list-unstyled">
+              <li><a href="#">Information for personal putors</a> </li>
+              <li><a href="#">The Careers Blog</a> </li>
+              <li><a href="#">Careers Staff</a> </li>
+              <li><a href="#">Appointments</a> </li>
+              <li><a href="#">Work Experience</a> </li>
+              <li><a href="#">Vacancies <br>
+                </a><a href="#">Skills development</a> </li>
+            </ul>
+
+          </div>
+
+          <div class="col-sm-6">
+            <ul class="list-unstyled">
+              <li><a href="#">Graduates</a> </li>
+              <li><a href="#">International students</a> </li>
+              <li><a href="#">Internships</a> </li>
+              <li><a href="#">Support</a> </li>
+              <li><a href="#">Interviews<br>
+                </a><a href="#">Application advices</a> </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-sm-3">
+        <h5>Contact us</h5>
+
+        <p>Student Careers Service:</p>
+
+        <p><span class="sr-only">Telephone</span><a href="tel:+442476524585">+44 (0)2476 524748</a>
+          <a href="+44 (0)2476 524748"> </a> </p>
+
+        University House, <br>
+        University of Warwick<br>
+        Coventry, CV4 8UW <br><br>
+
+        <a href="https://fb.com/warwickuniversity"><i class="fa fa-fw fa-2x fa-facebook">&nbsp;</i></a> <a
+          href="https://twitter.com/warwickuni"><i class="fa fa-fw fa-2x fa-twitter">&nbsp;</i></a> <a
+          href="https://youtube.com/channel/UCCT15s8fKYcquEB1zJ8a50A"><i
+            class="fa fa-fw fa-2x fa-youtube">&nbsp;</i></a>&nbsp;<a href="https://instagram.com/universityofwarwick"><i
+            class="fa fa-fw fa-2x fa-instagram"></i></a>
+      </div>
+
+      <div class="col-sm-3 map-column">
+        <h5>About Student Careers</h5>
+
+        <ul class="list-unstyled">
+          <li><a href="/study/postgraduate/research/info/">Privacy</li>
+          <li><a href="https://warwick.ac.uk/study/international">Diversity</a></li>
+          <li><a href="https://warwick.ac.uk/study/international">Staff intranet</a></li>
+          <li><a href="https://warwick.ac.uk/study/international">myAdvantage</a></li>
+        </ul>
+
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+  <div class="id7-app-footer">
+    <!-- Only include the id7-logo-bleed for footer class="id7-footer-coloured" -->
+    <div class="id7-logo-bleed"></div>
+
+    <div class="id7-footer-utility">
+      <ul>
+        <li>Powered by <a href="http://warwick.ac.uk/sitebuilder">App name</a></li>
+        <li><a href="http://warwick.ac.uk/copyright">© MMXV</a></li>
+        <li><a href="http://warwick.ac.uk/terms">Terms</a></li>
+        <li><a href="http://warwick.ac.uk/privacy">Privacy</a></li>
+        <li><a href="http://warwick.ac.uk/cookies">Cookies</a></li>
+        <li><a href="http://warwick.ac.uk/accessibility">Accessibility</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</div>
+<div class="id7-right-border"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+<script>
+new ClipboardJS('.btn');
+</script>
+
+</body>
+
+</html>
