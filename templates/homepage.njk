@@ -24,79 +24,8 @@
         <div class="column-1-content">
 
           <!-- homepage content start -->
-
-          <section class="hero-image">
-            <picture class="embed-responsive-item">
-              <source
-                srcset="/static-files/images/banners/main-banner-so.png"
-                media="(min-width: 1200px)">
-              <source
-                srcset="https://warwick.ac.uk/scaffold_assets/pg_instagram_homepage_banner_1170x450_time_to_focus_5_no_text.jpg.223460672645"
-                media="(min-width: 992px)">
-              <source srcset="https://warwick.ac.uk/scaffold_assets/pg_instagram_homepage_banner_1170x450_time_to_focus_5_no_text.jpg.223460672645"
-                media="(min-width: 768px)">
-              <img src="https://warwick.ac.uk/scaffold_assets/pg_instagram_homepage_banner_1170x450_time_to_focus_5_no_text.jpg.223460672645"
-                alt="Postgraduate">
-            </picture>
-            <div class="callout-button">
-              <h2>
-                <span class="hero-image-tagline-line2">Design your website using standard styles, components and patterns</span>
-                <span class="hero-image-tagline-line1">Use this design system to make your service consistent with Student Opportunity. Learn from the research and experience of the central team and avoid repeating work that’s already been done.</span>
-                
- 
-              </h2>
-              <a href="https://warwick.ac.uk/study/postgraduate/" class="btn btn-block btn-accent btn-lg">
-                <!-- CTA button text shown on tablet and desktop -->
-                <span class="hidden-xs">Get Started</span>
-                <!-- CTA button text shown only on mobile -->
-                <span class="visible-xs-inline">Get Started</span>
-                <i class="fal fa-chevron-right"></i>
-              </a>
-            </div>
-          </section>
-
-          <div class="row equal-height-md">
-            <div class="col-md-4">
-              <section class="boxstyle_ box1">
-
-                <h2><a href="//warwick.ac.uk/study/undergraduate/campuslife/accommodation/">Styles</a></h2>
-
-                <p>Finding the right accommodation is key to helping you settle in quickly. We currently have 11
-                  self-catering undergraduate halls of residence on campus. Our own student property management and
-                  lettings agency manages more than 8,000 rooms both on and off campus, and provides advice to all
-                  full-time undergraduates.</p>
-
-              </section>
-            </div>
-
-            <div class="col-md-4">
-              <section class="boxstyle_ box1">
-          
-
-                <h2><a href="//warwick.ac.uk/study/undergraduate/campuslife/ourcampus/">Components</a></h2>
-
-                <p>You won't be short of ways to spend your time on campus - whether it's visiting the award-winning
-                  Warwick Arts Centre, using our many sports facilities, socialising in our bars and cafés, or
-                  enjoying an open-air event. But there are peaceful spots too, with lakes, woodland and green spaces
-                  just a few minutes’ walk from central campus.</p>
-
-              </section>
-            </div>
-
-            <div class="col-md-4">
-              <section class="boxstyle_ box1">
-               
-                <h2><a href="//warwick.ac.uk/study/undergraduate/campuslife/societies/">Patterns</a></h2>
-
-                <p>We currently have more than 300 student-run societies. So whether you’re into films, astronomy,
-                  gaming or musical theatre, you can instantly connect with people with similar interests. Or you
-                  could try something new – Bhangra dancing or circus skills anyone?</p>
-
-              </section>
-            </div>
-
-          </div>
-
+            {% block main_content %}
+                {% endblock %}
           <!-- HP content end -->
 
 
