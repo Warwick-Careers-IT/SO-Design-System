@@ -1,26 +1,26 @@
 @media (min-width:768px) {
     .id7-right-border {
         background-image: none;
-        background-color: $so-brand-sky_blue;
+        background-color: $so-brand__primary;
     }
 }
 
 @media (min-width:768px) {
     .id7-left-border {
         background-image: none;
-        background-color: $so-brand-sky_blue;
+        background-color: $so-brand__primary;
     }
 }
 
 .id7-utility-masthead {
-    background-color: $so-brand-dark_blue;
+    background-color: $so-brand__primary__dark;
     background-image: none;
 }
 
 .id7-utility-masthead::after {
-    background-color: $so-brand-dark_blue
+    background-color: $so-brand__primary__dark;
 }
 
 .id7-navigation .navbar-primary {
-    background-color: $so-brand-dark_blue
+    background-color: $so-brand__primary__dark;
 }

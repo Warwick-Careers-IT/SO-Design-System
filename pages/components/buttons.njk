@@ -1,0 +1,99 @@
+{% extends 'content-75_25.njk' %}
+
+{% block pagetitle %}
+Buttons
+{% endblock %}
+
+{% block column_1_content %}
+
+{% endblock %}
+
+{% block column_2_content %}
+<p>
+    Buttons allow users to take actions, and make choices, with a single tap. Don't use them instead of a link.
+
+    ID7 comes with Bootstrap button baked in, see the Bootstrap docs for <a
+        href="https://getbootstrap.com/docs/4.0/components/buttons/">full details </a> including sizing buttons.</p>
+</p>
+
+<p><strong>Buttons should alway use the secondary colour of the SO palette, see below. </strong></p>
+
+<h4>Basic button: </h4>
+
+<a href="#" class="btn btn-lg btn-brand-secondary">Apply for Internship</a>
+
+<!-- snippet start -->
+<pre id="button-2" class="line-numbers language-markup snippet">
+<code>
+ <script type="prism-html-markup">
+<a href="#" class="btn btn-lg btn-brand-secondary">Apply for Internship</a>
+  </script>
+</code>
+</pre>
+<button class="btn btn-default" data-clipboard-target="#button-2">Copy snippet <i class="fal fa-copy"></i></button>
+
+
+<hr>
+
+<h4>Button with icon: </h4>
+
+
+<a href="#" class="btn btn-brand-secondary btn-lg">
+    <!-- CTA button text shown on tablet and desktop -->
+    <span class="hidden-xs">Get Started</span>
+    <!-- CTA button text shown only on mobile -->
+    <span class="visible-xs-inline">Get Started</span>
+    <i class="fal fa-chevron-right"></i>
+</a>
+
+<!-- snippet start -->
+<pre id="button-2" class="line-numbers language-markup snippet">
+<code>
+ <script type="prism-html-markup">
+<a href="#" class="btn btn-brand-secondary btn-lg">
+    <!-- below button text shown on tablet and desktop -->
+    <span class="hidden-xs">Get Started</span>
+    <!-- below button text shown only on mobile inlined -->
+    <span class="visible-xs-inline">Get Started</span>
+    <i class="fal fa-chevron-right"></i>
+</a>
+  </script>
+</code>
+</pre>
+<button class="btn btn-default" data-clipboard-target="#button-2">Copy snippet <i class="fal fa-copy"></i></button>
+<!-- snippet end -->
+
+<hr>
+<p>If contrast is an issue use the primary palette color:</p>
+
+<a href="#" class="btn btn-lg btn-brand-primary">Make an appointment</a>
+<pre id="button-3" class="line-numbers language-markup snippet">
+<code>
+ <script type="prism-html-markup">
+<a href="#" class="btn btn-lg btn-brand-primary">Apply for Internship</a>
+  </script>
+</code>
+</pre>
+<button class="btn btn-default" data-clipboard-target="#button-3">Copy snippet <i class="fal fa-copy"></i></button>
+
+
+<hr>
+<h4>Outline variation:</h4>
+
+<a href="#" class="btn btn-lg btn-brand-secondary__outlined">Apply for Internship</a>
+<pre id="button-4" class="line-numbers language-markup snippet">
+<code>
+ <script type="prism-html-markup">
+<a href="#" class="btn btn-lg btn-brand-secondary__outlined">Apply for Internship</a>
+  </script>
+</code>
+</pre>
+<button class="btn btn-default" data-clipboard-target="#button-4">Copy snippet <i class="fal fa-copy"></i></button>
+
+
+
+
+
+
+
+{% endblock %}

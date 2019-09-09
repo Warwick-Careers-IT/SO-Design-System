@@ -1,4 +1,5 @@
-/* colors */
+/* primary */
+/* secondary */
 h1,
 h2,
 h3,
@@ -11,7 +12,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  color: #38383E; }
+  color: #0b0c0c; }
 
 a,
 a:link,
@@ -65,32 +66,38 @@ h3 {
   font-size: 23px; }
 
 @media (min-width: 768px) {
-  .h2,
   h2 {
-    font-size: 36px; }
-  .h3,
+    font-size: 28px; }
+    h2 a,
+    h2 a:link,
+    h2 a:visited {
+      color: #0b0c0c;
+      text-decoration: none; }
   h3 {
-    font-size: 26px; } }
+    font-size: 22px; } }
+
+.so-text__bold {
+  font-weight: 600; }
 
 @media (min-width: 768px) {
   .id7-right-border {
     background-image: none;
-    background-color: #5698d2; } }
+    background-color: #5698D2; } }
 
 @media (min-width: 768px) {
   .id7-left-border {
     background-image: none;
-    background-color: #5698d2; } }
+    background-color: #5698D2; } }
 
 .id7-utility-masthead {
-  background-color: #1d71aa;
+  background-color: #3B69A1;
   background-image: none; }
 
 .id7-utility-masthead::after {
-  background-color: #1d71aa; }
+  background-color: #3B69A1; }
 
 .id7-navigation .navbar-primary {
-  background-color: #1d71aa; }
+  background-color: #3B69A1; }
 
 .id7-navigation .navbar-primary.navbar-primary.navbar-wrapped > .navbar-nav > li {
   color: white; }
@@ -449,24 +456,8 @@ fieldset[disabled] .navbar-tertiary .btn-link:focus {
 .boxstyle-md.box1,
 .boxstyle-lg.box1 {
   border: 0;
-  background: #7ecbb6;
-  color: #383838; }
-  .boxstyle_.box1 a,
-  .boxstyle_.box1 a:link,
-  .boxstyle_.box1 a:visited,
-  .boxstyle-xs.box1 a,
-  .boxstyle-xs.box1 a:link,
-  .boxstyle-xs.box1 a:visited,
-  .boxstyle-sm.box1 a,
-  .boxstyle-sm.box1 a:link,
-  .boxstyle-sm.box1 a:visited,
-  .boxstyle-md.box1 a,
-  .boxstyle-md.box1 a:link,
-  .boxstyle-md.box1 a:visited,
-  .boxstyle-lg.box1 a,
-  .boxstyle-lg.box1 a:link,
-  .boxstyle-lg.box1 a:visited {
-    color: #38383E; }
+  background: #E6F2F9;
+  color: #0b0c0c; }
 
 @media print {
   .boxstyle_.box1,
@@ -1074,10 +1065,9 @@ fieldset[disabled] .navbar-tertiary .btn-link:focus {
     background-color: rgba(255, 255, 255, 0.82); } }
 
 .btn-accent {
-  color: #38383E;
-  background-color: #7ecbb6;
+  color: #0b0c0c !important;
+  background-color: #7eccb7;
   border-color: transparent;
-  color: #38383E !important;
   border-radius: 0;
   font-weight: 700;
   -webkit-transition: background-color .3s;
@@ -1086,15 +1076,12 @@ fieldset[disabled] .navbar-tertiary .btn-link:focus {
 .btn-accent.focus,
 .btn-accent:focus,
 .btn-accent:hover {
-  color: #383838;
-  background-color: #5698d2;
+  background-color: #b0ffe9;
   border-color: transparent; }
 
 .btn-accent.active,
-.btn-accent:active,
-.open > .dropdown-toggle.btn-accent {
-  color: #383838;
-  background-color: #ffb300;
+.btn-accent:active {
+  background-color: #4DB79B;
   background-image: none;
   border-color: transparent; }
 
@@ -1107,8 +1094,7 @@ fieldset[disabled] .navbar-tertiary .btn-link:focus {
 .open > .dropdown-toggle.btn-accent.focus,
 .open > .dropdown-toggle.btn-accent:focus,
 .open > .dropdown-toggle.btn-accent:hover {
-  color: #383838;
-  background-color: #db9a00;
+  background-color: #4DB79B;
   border-color: transparent; }
 
 .btn-accent.disabled.focus,
@@ -1120,15 +1106,8 @@ fieldset[disabled] .navbar-tertiary .btn-link:focus {
 fieldset[disabled] .btn-accent.focus,
 fieldset[disabled] .btn-accent:focus,
 fieldset[disabled] .btn-accent:hover {
-  background-color: #ffc233;
+  background-color: #4DB79B;
   border-color: transparent; }
-
-.btn-accent .badge {
-  color: #ffc233;
-  background-color: #383838; }
-
-.btn-accent:not(.btn-link) {
-  text-decoration: none; }
 
 @media (max-width: 767px) {
   .boxstyle_.box1,
@@ -1155,24 +1134,8 @@ fieldset[disabled] .btn-accent:hover {
 .boxstyle-md.box1,
 .boxstyle-lg.box1 {
   border: 0;
-  background: #7ecbb6;
-  color: #383838; }
-  .boxstyle_.box1 a,
-  .boxstyle_.box1 a:link,
-  .boxstyle_.box1 a:visited,
-  .boxstyle-xs.box1 a,
-  .boxstyle-xs.box1 a:link,
-  .boxstyle-xs.box1 a:visited,
-  .boxstyle-sm.box1 a,
-  .boxstyle-sm.box1 a:link,
-  .boxstyle-sm.box1 a:visited,
-  .boxstyle-md.box1 a,
-  .boxstyle-md.box1 a:link,
-  .boxstyle-md.box1 a:visited,
-  .boxstyle-lg.box1 a,
-  .boxstyle-lg.box1 a:link,
-  .boxstyle-lg.box1 a:visited {
-    color: #38383E; }
+  background: #E6F2F9;
+  color: #0b0c0c; }
 
 @media print {
   .boxstyle_.box1,
@@ -1834,7 +1797,7 @@ fieldset[disabled] .btn-accent:hover {
   color: #fff !important; }
 
 .id7-page-footer .id7-app-footer {
-  background: #1d71aa;
+  background: #3B69A1;
   color: white; }
 
 .id7-page-footer .id7-app-footer h1,

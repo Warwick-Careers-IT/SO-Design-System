@@ -10,7 +10,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  color: $so-brand-black;
+  color: $so-text__primary;
 }
 
 a,
@@ -81,13 +81,20 @@ h3 {
 
 @media (min-width: 768px) {
 
-  .h2,
   h2 {
-    font-size: 36px
+    font-size: 28px;
+    a,
+    a:link,
+    a:visited {
+      color: $so-text__primary;
+      text-decoration: none;
+    }
   }
 
-  .h3,
   h3 {
-    font-size: 26px
+    font-size: 22px
   }
 }
+
+
+.so-text__bold { font-weight: 600}

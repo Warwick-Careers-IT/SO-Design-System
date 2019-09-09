@@ -29,13 +29,8 @@
 .boxstyle-md.box1,
 .boxstyle-lg.box1 {
     border: 0;
-    background: $so-brand-emerald_green;
-    color: #383838;
-    a,
-    a:link,
-    a:visited {
-        color: $so-brand-black;
-    };
+    background: $so-brand__primary__50;
+    color: $so-text__primary;
 }
 
 @media print {

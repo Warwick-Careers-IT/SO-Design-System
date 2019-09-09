@@ -1,63 +1,46 @@
-.btn-accent {
-    color: $so-brand-black;
-    background-color: $so-brand-emerald_green;
+.btn-brand-secondary {
+    color: $so-text__primary !important;
+    background-color: $so-brand__secondary;
+    text-decoration: none !important;
     border-color: transparent;
-    color: $so-brand-black !important;
     border-radius: 0;
-    font-weight: 700;
+    font-weight: 600;
     -webkit-transition: background-color .3s;
-    transition: background-color .3s
+    transition: background-color .3s;
+
+    &:hover {
+        background-color: $so-brand__secondary__300;
+    }
+
 }
 
-.btn-accent.focus,
-.btn-accent:focus,
-.btn-accent:hover {
-    color: #383838;
-    background-color:$so-brand-sky_blue;
-    border-color: transparent
+
+.btn-brand-secondary__outlined {
+    color: $so-text__primary !important;
+    background-color: none;
+    border-color: $so-brand__secondary;
+    border-radius: 0;
+    font-weight: 600;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+
+    &:hover {
+        background-color: $so-brand__secondary__300;
+    }
+    text-decoration: none !important;
 }
 
-.btn-accent.active,
-.btn-accent:active,
-.open>.dropdown-toggle.btn-accent {
-    color: #383838;
-    background-color: #ffb300;
-    background-image: none;
-    border-color: transparent
-}
 
-.btn-accent.active.focus,
-.btn-accent.active:focus,
-.btn-accent.active:hover,
-.btn-accent:active.focus,
-.btn-accent:active:focus,
-.btn-accent:active:hover,
-.open>.dropdown-toggle.btn-accent.focus,
-.open>.dropdown-toggle.btn-accent:focus,
-.open>.dropdown-toggle.btn-accent:hover {
-    color: #383838;
-    background-color: #db9a00;
-    border-color: transparent
-}
-
-.btn-accent.disabled.focus,
-.btn-accent.disabled:focus,
-.btn-accent.disabled:hover,
-.btn-accent[disabled].focus,
-.btn-accent[disabled]:focus,
-.btn-accent[disabled]:hover,
-fieldset[disabled] .btn-accent.focus,
-fieldset[disabled] .btn-accent:focus,
-fieldset[disabled] .btn-accent:hover {
-    background-color: #ffc233;
-    border-color: transparent
-}
-
-.btn-accent .badge {
-    color: #ffc233;
-    background-color: #383838
-}
-
-.btn-accent:not(.btn-link) {
-    text-decoration: none
+.btn-brand-primary {
+    color: $so-text__primary !important;
+    background-color: $so-brand__primary;
+    border-color: transparent;
+    border-radius: 0;
+    font-weight: 600;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;   
+    text-decoration: none !important;
+    &:hover {
+        background-color: $so-brand__primary__light;
+    }
 }
