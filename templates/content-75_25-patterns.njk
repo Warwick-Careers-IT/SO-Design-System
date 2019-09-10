@@ -1,0 +1,36 @@
+{% include 'partials/header.njk' %}
+{% include 'nav/top-menu.njk' %}
+{% block navLevelTwo %}{% endblock %}
+</div>
+</header>
+
+<main class="id7-main-content-area" id="main">
+    <header class="id7-main-content-header"></header>
+
+    <div id="main" class="id7-main-content-area">
+        <div class="id7-main-content">
+            <div class="layout layout-25-75">
+                <div class="column-1">
+                    <div class="column-1-content">
+                        {% include 'nav/patterns-menu.njk' %}
+                    </div>
+                </div>
+                <div class="column-2">
+                    <div class="column-2-content">
+                        <h1>
+                            {% block pagetitle %}{% endblock %}
+                        </h1>
+                        {% block column_2_content %}
+                        {% endblock %}
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</main>
+
+
+{% include 'partials/footer.njk' %}

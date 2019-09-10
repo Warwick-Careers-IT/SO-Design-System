@@ -10,38 +10,38 @@ h6,
 .h4,
 .h5,
 .h6 {
-  color: $so-text__primary;
+  color: $so-brand__primary__900;
 }
 
 a,
 a:link,
 a:visited {
-  color: #197b96
+  color: $so-brand__primary__900;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #0a333f
+  color: $so-brand__primary__900;
 }
 
 a:hover .new-window-link,
 a:hover .insecure-link {
-  color: #0a333f
+  color: $so-brand__primary__900;
 }
 
 a,
 a:link,
 a:visited {
-  -webkit-text-decoration-color: #5ea3b5;
-  text-decoration-color: #5ea3b5
+  -webkit-text-decoration-color: $so-brand__primary__900;
+  text-decoration-color: $so-brand__primary__900;
 }
 
 a:hover,
 a:focus,
 a:active {
-  -webkit-text-decoration-color: #0a333f;
-  text-decoration-color: #0a333f
+  -webkit-text-decoration-color: $so-brand__primary__900;
+  text-decoration-color: $so-brand__primary__900;
 }
 
 
@@ -86,7 +86,7 @@ h3 {
     a,
     a:link,
     a:visited {
-      color: $so-text__primary;
+      color: $so-brand__primary__900;
       text-decoration: none;
     }
   }
@@ -97,4 +97,6 @@ h3 {
 }
 
 
-.so-text__bold { font-weight: 600}
+.so-text__link { 
+  font-weight: 600;
+}
