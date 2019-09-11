@@ -1,0 +1,66 @@
+{% extends 'content-75_25-components.njk' %}
+<!-- level two nav -->
+{% block navLevelTwo %}
+<nav class="navbar navbar-secondary" role="navigation">
+  <ul class="nav navbar-nav">
+    <li class="nav-breadcrumb first" > <a
+        href="#">Components</a></li>
+    <li class="active nav-breadcrumb second last " > 
+    <a>Inset Text (Block quotes)</a></li>
+  </ul>
+</nav>
+{% endblock %}
+<!-- end level two nav -->
+
+
+{% block pagetitle %}
+Inset Text (block quotes)
+{% endblock %}
+
+{% block column_1_content %}
+
+{% endblock %}
+
+{% block column_2_content %}
+
+<blockquote> 
+  <p>“<a href="https://gds.blog.gov.uk/2014/02/17/guest-post-clarity-is-king-the-evidence-that-reveals-the-desperate-need-to-re-think-the-way-we-write/" rel="external">Research</a> shows that higher literacy people prefer plain English because it allows them to understand the information as quickly as possible.” (<a href="https://www.gov.uk/guidance/content-design/writing-for-gov-uk">GOV.UK</a>)</p>
+
+</blockquote>
+
+
+<h4>When to use this component</h4>
+<p>Use the inset text component to differentiate a block of text from the content that surrounds it, for example:</p>
+<ul>
+<li>quotes</li>
+<li>examples</li>
+<li>additional information about the page</li>
+</ul>
+<h4>When not to use this component</h4>
+<p>Some users do not notice inset text if it’s used on complex pages or near to other visually prominent elements. For this reason, avoid using inset text as a way of highlighting very important information that users need to see.</p>
+<p>If you need to draw attention to very important content, like legal information, use the <a href="/components/warning-text/">warning text component</a> instead.</p>
+
+<p>Use inset text very sparingly - it’s less effective if it’s overused.</p>
+
+<h4>HTML</h4>
+
+
+
+<!-- snippet start -->
+<pre id="button-2" class="line-numbers language-markup snippet">
+<code>
+ <script type="prism-html-markup">
+ <blockquote> 
+  <p>“<a href="https://gds.blog.gov.uk/2014/02/17/guest-post-clarity-is-king-the-evidence-that-reveals-the-desperate-need-to-re-think-the-way-we-write/" rel="external">Research</a> shows that higher literacy people prefer plain English because it allows them to understand the information as quickly as possible.” (<a href="https://www.gov.uk/guidance/content-design/writing-for-gov-uk">GOV.UK</a>)</p>
+</blockquote>
+  </script>
+</code>
+</pre>
+<button class="btn btn-default" data-clipboard-target="#button-2">Copy snippet <i class="fal fa-copy"></i></button>
+
+
+
+
+
+
+{% endblock %}

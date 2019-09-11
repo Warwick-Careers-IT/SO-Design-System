@@ -10,7 +10,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  color: $so-brand__primary__900;
+  color: $so-text__primary;
 }
 
 a,
@@ -99,4 +99,16 @@ h3 {
 
 .so-text__link { 
   font-weight: 600;
+}
+
+
+/* extends base class in pack7.css */
+
+blockquote {
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      margin-left: 30px;
+      margin-right: 20px;
+      border-left: 10px solid $so-brand__secondary;
 }

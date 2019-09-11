@@ -1,0 +1,106 @@
+{% extends 'content-75_25-components.njk' %}
+<!-- level two nav -->
+{% block navLevelTwo %}
+<nav class="navbar navbar-secondary" role="navigation">
+  <ul class="nav navbar-nav">
+    <li class="nav-breadcrumb first" > <a
+        href="#">Components</a></li>
+    <li class="active nav-breadcrumb second last " > 
+    <a>Accordian</a></li>
+  </ul>
+</nav>
+{% endblock %}
+<!-- end level two nav -->
+
+
+{% block pagetitle %}
+Accordian
+{% endblock %}
+
+{% block column_1_content %}
+
+{% endblock %}
+
+{% block column_2_content %}
+<br>
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"> 
+    <div class="panel panel-default"> 
+      <div class="panel-heading" id="headingOne" role="tab"> 
+        <h4 class="panel-title"><a role="button" aria-expanded="true" aria-controls="collapseOne" href="#collapseOne" data-toggle="collapse" data-parent="#accordion">How does WSI benefit you? </a> </h4>
+      </div>
+
+      <div class="panel-collapse collapse" id="collapseOne" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true" style=""> 
+        <div class="panel-body"> 
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel panel-default"> 
+      <div class="panel-heading" id="headingTwo" role="tab"> 
+        <h4 class="panel-title"><a class="collapsed" role="button" aria-expanded="false" aria-controls="collapseTwo" href="#collapseTwo" data-toggle="collapse" data-parent="#accordion">What is your commitment as a WSI Intern? </a> </h4>
+      </div>
+
+      <div class="panel-collapse collapse" id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false"> 
+        <div class="panel-body"> 
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel panel-default"> 
+      <div class="panel-heading" id="headingThree" role="tab"> 
+        <h4 class="panel-title"><a class="collapsed" role="button" aria-expanded="false" aria-controls="collapseThree"href="#collapseThree" data-toggle="collapse" data-parent="#accordion">What will a WSI internship cost you?</a> </h4>
+      </div>
+
+      <div class="panel-collapse collapse" id="collapseThree" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false"> 
+        <div class="panel-body"> 
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<br>
+<p>
+The accordion component lets users show and hide sections of related content on a page.
+</p>
+
+<h4>When to use this component</h4>
+
+<p>Only use an accordion if there’s evidence it’s helpful for users to:</p>
+
+<ul>
+<li>see an overview of multiple, related sections of content</li>
+<li>show and hide those sections as needed</li>
+</ul>
+
+<hr>
+
+<h4> When not to use this component </h4>
+
+<p>Accordions hide content from users and not everyone will notice them or understand how they work. For this reason do not use an accordion for content which is essential to all users.</p>
+
+<p>Test your content without an accordion first. Consider if it’s better to:</p>
+
+<ul>
+<li>simplify and reduce the amount of content</li>
+<li>split the content across multiple pages</li>
+<li>keep the content on a single page, separated by headings</li>
+<li>use a list of links to let users navigate quickly to specific sections of content</li>
+</ul>
+
+<p>
+<a href="components/tabs.html"> Tabs </a> may work better for users who need to switch quickly between 2 sections. Accordions push other sections down the page when they open, but tabs do not move which makes it easier to switch.
+</p>
+
+<h5> Use clear labels </h5>
+Accordions hide content, so the labels need to be clear. If necessary, you can add a summary line to help users understand what is in the section.
+
+<hr>
+
+
+
+
+
+{% endblock %}
