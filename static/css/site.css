@@ -164,7 +164,7 @@ blockquote {
   background-color: #146278; }
 
 .id7-navigation .navbar-primary .navbar-nav .dropdown-menu {
-  background-color: #197b96; }
+  background-color: #3B69A1; }
 
 .id7-navigation .navbar-primary .navbar-nav .dropdown-menu > .dropdown-header {
   border-color: #146278; }
@@ -178,19 +178,19 @@ blockquote {
 .id7-navigation .navbar-primary .navbar-nav .dropdown-menu > li > a:hover,
 .id7-navigation .navbar-primary .navbar-nav .dropdown-menu > li > a:focus {
   color: white;
-  background-color: #146278; }
+  background-color: #2E4C81; }
 
 .id7-navigation .navbar-primary .navbar-nav .dropdown-menu > .active > a {
-  background-color: #146278; }
+  background-color: #2E4C81; }
 
 .id7-navigation .navbar-primary .navbar-nav .dropdown-menu > .active > a::before {
-  border-bottom-color: #5ea3b5; }
+  border-bottom-color: #2E4C81; }
 
 .id7-navigation .navbar-primary .navbar-nav .dropdown-menu > .disabled > a,
 .id7-navigation .navbar-primary .navbar-nav .dropdown-menu > .disabled > a:hover,
 .id7-navigation .navbar-primary .navbar-nav .dropdown-menu > .disabled > a:focus {
   color: white;
-  background-color: #146278; }
+  background-color: #2E4C81; }
 
 .id7-navigation .navbar-primary .navbar-link {
   color: white; }
@@ -336,17 +336,17 @@ fieldset[disabled] .navbar-secondary .btn-link:focus {
   background-color: #f8f8f8; }
 
 .navbar-tertiary.navbar-primary.navbar-wrapped > .navbar-nav > li {
-  color: #383838; }
+  color: #0b0c0c; }
 
 .navbar-tertiary.navbar-primary.navbar-wrapped > .navbar-nav > li.active,
 .navbar-tertiary.navbar-primary.navbar-wrapped > .navbar-nav > li:hover {
-  color: #383838; }
+  color: #0b0c0c; }
 
 .navbar-tertiary .navbar-text {
-  color: #383838; }
+  color: #0b0c0c; }
 
 .navbar-tertiary .navbar-nav > li {
-  color: #383838; }
+  color: #0b0c0c; }
 
 .navbar-tertiary .navbar-nav > li:hover,
 .navbar-tertiary .navbar-nav > li:focus {
@@ -371,22 +371,22 @@ fieldset[disabled] .navbar-secondary .btn-link:focus {
 .navbar-tertiary .navbar-nav > .disabled,
 .navbar-tertiary .navbar-nav > .disabled:hover,
 .navbar-tertiary .navbar-nav > .disabled:focus {
-  color: #383838;
+  color: #0b0c0c;
   background-color: #c6c6c6; }
 
 .navbar-tertiary .navbar-toggle {
   border: none;
-  color: #383838; }
+  color: #0b0c0c; }
 
 .navbar-tertiary .navbar-toggle:hover,
 .navbar-tertiary .navbar-toggle:focus {
-  color: #383838;
+  color: #0b0c0c;
   background: none; }
 
 .navbar-tertiary .navbar-nav > .open,
 .navbar-tertiary .navbar-nav > .open:hover,
 .navbar-tertiary .navbar-nav > .open:focus {
-  color: #383838;
+  color: #0b0c0c;
   background-color: #c6c6c6; }
 
 .navbar-tertiary .navbar-nav .dropdown-menu {
@@ -399,11 +399,11 @@ fieldset[disabled] .navbar-secondary .btn-link:focus {
   background-color: #c6c6c6; }
 
 .navbar-tertiary .navbar-nav .dropdown-menu > li > a {
-  color: #383838; }
+  color: #0b0c0c; }
 
 .navbar-tertiary .navbar-nav .dropdown-menu > li > a:hover,
 .navbar-tertiary .navbar-nav .dropdown-menu > li > a:focus {
-  color: #383838;
+  color: #0b0c0c;
   background-color: #c6c6c6; }
 
 .navbar-tertiary .navbar-nav .dropdown-menu > .active > a {
@@ -415,27 +415,27 @@ fieldset[disabled] .navbar-secondary .btn-link:focus {
 .navbar-tertiary .navbar-nav .dropdown-menu > .disabled > a,
 .navbar-tertiary .navbar-nav .dropdown-menu > .disabled > a:hover,
 .navbar-tertiary .navbar-nav .dropdown-menu > .disabled > a:focus {
-  color: #383838;
+  color: #0b0c0c;
   background-color: #c6c6c6; }
 
 .navbar-tertiary .navbar-link {
-  color: #383838; }
+  color: #0b0c0c; }
 
 .navbar-tertiary .navbar-link:hover {
-  color: #383838; }
+  color: #0b0c0c; }
 
 .navbar-tertiary .btn-link {
-  color: #383838; }
+  color: #0b0c0c; }
 
 .navbar-tertiary .btn-link:hover,
 .navbar-tertiary .btn-link:focus {
-  color: #383838; }
+  color: #0b0c0c; }
 
 .navbar-tertiary .btn-link[disabled]:hover,
 fieldset[disabled] .navbar-tertiary .btn-link:hover,
 .navbar-tertiary .btn-link[disabled]:focus,
 fieldset[disabled] .navbar-tertiary .btn-link:focus {
-  color: #383838; }
+  color: #0b0c0c; }
 
 .bordered .id7-left-border,
 .bordered .id7-right-border {
