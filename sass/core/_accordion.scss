@@ -1,0 +1,62 @@
+panel-group {
+    margin-bottom: 0;
+}
+
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.panel-group .panel .panel-heading {
+    padding: 0;
+}
+
+.panel-group .panel .panel-heading h4 a {
+    background: white;
+    display: block;
+    font-size: 22px;
+    line-height: 20px;
+    padding: 15px;
+    text-decoration: none;
+    transition: 0.15s all ease-in-out;
+}
+
+.panel-group .panel .panel-heading h4 a:hover,
+.panel-group .panel .panel-heading h4 a:not(.collapsed) {
+    /*background: #fff;*/
+    transition: 0.15s all ease-in-out;
+    text-decoration: underline;
+}
+
+.panel-group .panel .panel-heading h4 a:focus {
+    outline: none;
+    background: $so-brand__primary__50;
+}
+
+
+
+.panel-group .panel .panel-heading h4 a:not(.collapsed) i:before {
+    content: "-";
+    font-size: 50px;
+    line-height: 10px;
+}
+
+.panel-group .panel .panel-heading h4 a i {
+    color: $so-text__primary;
+    font-size: 20px;
+}
+
+.panel-group .panel .panel-body {
+    padding-top: 20px;
+}
+
+.panel-group .panel .panel-heading+.panel-collapse>.list-group,
+.panel-group .panel .panel-heading+.panel-collapse>.panel-body {
+    border-top: none;
+}
+
+.panel-group .panel+.panel {
+    border-top: none;
+    margin-top: 0;
+}
+

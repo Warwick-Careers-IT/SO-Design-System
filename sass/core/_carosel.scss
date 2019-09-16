@@ -1,11 +1,5 @@
-.carousel .carousel-indicators li::after {
-    color: #197b96;
-    color: rgba(25, 123, 150, 0.3)
-}
 
-.carousel .carousel-indicators li.active::after {
-    color: #197b96
-}
+/* used by the career website slideshow-2017 */
 
 .hp-layout.slideshow-2017 .carousel {
     margin-bottom: 20px;
@@ -90,7 +84,7 @@
     background-color: #fff
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
     .hp-layout.slideshow-2017 .carousel .carousel-inner>.item>img {
         height: auto
     }
@@ -125,7 +119,7 @@
     }
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
     .hp-layout.slideshow-2017 .carousel .controller-container {
         position: absolute;
         background-color: transparent;
@@ -181,7 +175,7 @@
 .hp-layout.slideshow-light-theme .carousel .carousel-caption a,
 .hp-layout.slideshow-light-theme .carousel .carousel-caption a:active,
 .hp-layout.slideshow-light-theme .carousel .carousel-caption a:focus {
-    color: #197b96
+    color: #5b3069
 }
 
 .hp-layout.slideshow-light-theme .carousel .carousel-caption a:hover {
@@ -210,7 +204,7 @@
     color: #383838
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
 
     .hp-layout.slideshow-light-theme .carousel .carousel-caption.col-md-4,
     .hp-layout.slideshow-light-theme .carousel .carousel-caption.col-md-6 {
