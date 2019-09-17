@@ -1,0 +1,37 @@
+// Student opportunity brand colours
+/* please don't override component defaults with them */
+
+/* primary brand colours  */
+.so-blue { 
+    color: $so-brand__primary; 
+}
+.so-blue__light {
+    color: $so-brand__primary__light;
+}
+.so-blue__dark {
+    color: $so-brand__primary__dark;
+} 
+.so-blue__900 {
+    color: $so-brand__primary__900;
+} 
+.so-blue__50 {
+    color: $so-brand__primary__50;
+}
+
+
+/* secondary brand colours  */
+.so-green {
+    color: $so-brand__secondary;
+}
+
+.so-green__light {
+    color: $so-brand__secondary__light;
+}
+
+.so-green__dark {
+    color: $so-brand__secondary__dark;
+}
+
+.so-green__300 {
+    color: $so-brand__secondary__300
+}

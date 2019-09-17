@@ -18,37 +18,60 @@ Getting Started
 
 {% block main_content %}
 
-<h3>Aims</h3>
+<h3>Aims of this Design System</h3>
 
 <section class="boxstyle_ box1">
 <ul>
 <li> Consistant SO branding across all SO services </li>
 <li> Consistant user experience across all SO services </li>
-<li> Increased maintainability</li>
-<li> Increased accessibility</li>
-<li> Standardisation of HTML/CSS code resulting in faster design interations</li>
+<li> Increased website maintainability and accessibility</li>
+<li> Standardisation of HTML/CSS code across SO services</li>
 </ul>
 </section>
 
 <h4>Prerequites</h4>
 
-<p>Make sure you website is using the Student Opportunity site.css. The ITS web team will install this on your website to replace the default (if requested). </p>
+<p>Your website must be using the Student Opportunity site.css.</p>
 
-<p>Once setup you simple copy the HTML code snippet on this website for the components and patterns you wish to use. </p>
-
-<h4>Related Information</h4>
-
+<h4>Web Team Guidelines</h4>
 
 <p>
-We strongly suggest you read ITS Web Teams <a href="https://warwick.ac.uk/services/its/servicessupport/web/sitebuilder2/goodsites/design/">  Guide to making good websites </a>. As well as their <a href="https://warwick.ac.uk/services/its/servicessupport/web/sitebuilder2/goodsites/accessibility" >Accessibilty guideleines </a> </p>
+We strongly suggest you read ITS Web Teams <a href="https://warwick.ac.uk/services/its/servicessupport/web/sitebuilder2/goodsites/design/">  Guide to making good websites </a>. As well as their <a href="https://warwick.ac.uk/services/its/servicessupport/web/sitebuilder2/goodsites/accessibility" >Accessibility guideleines.</a> </p>
 
-<p>This design system builds on the styles in pack7.css, pack7.css in turn contains Bootstrap components. We recommend you take a look at Bootstrap documentation for more detailed information.</p>
+<h4>Bootstrap</h4>
+<p>This design system builds on the CSS built into SiteBuilder. This is primarily based on <a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/">Bootstrap</a>. We recommend you refer to the Bootstrap documentation for more detailed information on using Bootstrap utility classes and components not covered by this design system.</p>
 
-<h4>Advanced</h4>
 
-<p>You can download this codebase and run it locally. This is useful for prototyping and contributing to the design system.</p>
+<hr>
 
-<p>More information on the <a href="#"> design system protyping kit </a></p>
+
+<h4>Developer Friendly Prototyping Kit</h4>
+
+<p>You can download this codebase and run it locally. This is useful for prototyping and contributing to the design system. </p>
+
+<p>While maintaining Warwick ID7 codebase, the kit frees you from Sitebuilder while you build your website design system / prototype</p>
+
+<section class="boxstyle_ box1">
+<ul>
+<li>Local development environment based on SASS/Node/Nunjucks/Live Reload to speed up development time.</li>
+<li>GIT based codebase for team base development.</li>
+<li>Gulp Cli build tools.</li>
+<li>GIT based Branch deployment to Netlify/Heroku for rapid prototyping and A/B testing</li>
+<ul>
+</section>
+
+
+
+<a href="https://github.com/Warwick-Careers-IT/SO-Design-System" class="btn btn-brand-secondary btn-lg">
+<i class="fab fa-github"></i> 
+    <!-- below button text shown on tablet and desktop -->
+    <span class="hidden-xs">Prototyping kit on GitHub</span>
+    <!-- below button text shown only on mobile inlined -->
+    <span class="visible-xs-inline">Design system prototyping kit </span>
+    
+</a>
+
+
 
 
 {% endblock %}

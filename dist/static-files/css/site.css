@@ -149,7 +149,7 @@ panel-group {
 
 .id7-utility-masthead {
   background-color: #3B69A1;
-  background-image: none; }
+  background-image: url("https://warwick.ac.uk/services/careers/so-brand/masthead.jpg"); }
 
 .id7-utility-masthead::after {
   background-color: #3B69A1; }
@@ -2109,6 +2109,36 @@ fieldset[disabled] .navbar-tertiary .btn-link:focus {
 .hero-image-tagline-line1,
 .hero-image-tagline-line2 {
   color: #fff !important; }
+
+/* please don't override component defaults with them */
+/* primary brand colours  */
+.so-blue {
+  color: #5698D2; }
+
+.so-blue__light {
+  color: #9DCAE9; }
+
+.so-blue__dark {
+  color: #3B69A1; }
+
+.so-blue__900 {
+  color: #2E4C81; }
+
+.so-blue__50 {
+  color: #E6F2F9; }
+
+/* secondary brand colours  */
+.so-green {
+  color: #7eccb7; }
+
+.so-green__light {
+  color: #b0ffe9; }
+
+.so-green__dark {
+  color: #4d9b87; }
+
+.so-green__300 {
+  color: #4DB79B; }
 
 .id7-page-footer .id7-app-footer {
   background: #3B69A1;
