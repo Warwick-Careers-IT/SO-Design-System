@@ -1,0 +1,92 @@
+{% extends 'content-75_25-components.njk' %}
+<!-- level two nav -->
+{% block navLevelTwo %}
+<nav class="navbar navbar-secondary" role="navigation">
+  <ul class="nav navbar-nav">
+    <li class="nav-breadcrumb first" > <a
+        href="#">Components</a></li>
+    <li class="active nav-breadcrumb second last " > 
+    <a>Tabs</a></li>
+  </ul>
+</nav>
+{% endblock %}
+<!-- end level two nav -->
+
+
+{% block pagetitle %}
+Tabs
+{% endblock %}
+
+{% block column_1_content %}
+
+{% endblock %}
+
+{% block column_2_content %}
+
+<p>The tabs component lets users navigate between related sections of content, displaying one section at a time.</p>
+
+<br>
+
+<ul class="nav nav-tabs" id="eng-tabs">
+      <li class="active"><a data-toggle="tab" href="#course-tab-1" aria-expanded="true">Course Overview</a> </li>
+      <li class=""><a data-toggle="tab" href="#course-tab-2" aria-expanded="false">Entry Requirements</a> </li>
+      <li class=""><a data-toggle="tab" href="#course-tab-3" aria-expanded="false">Core Modules</a> </li>
+
+</ul>
+
+<div class="tab-content" id="eng-tabs-content"> 
+      <div class="tab-pane fade active in" id="course-tab-1"> 
+          <p>This four-year course is designed to provide you with access to our main Accounting and Finance degree if challenging circumstances mean that you haven’t been able to meet the entry requirements for our standard Accounting and Finance BSc. We are looking for applicants who have the drive and motivation, and ultimately want to progress to a professionally-orientated qualification that is consistently ranked highly in major UK league tables.<br>
+             </p>
+      </div>
+
+      <div class="tab-pane fade" id="course-tab-2"> 
+        <p>Applicants should have studied a higher level quantitative subject such as Maths, Further Maths, Physics, Calculus and Statistics.</p>
+
+        <p><strong>﻿<a id="course-tab-2"></a>﻿A level:</strong><a id="requirements"></a> Complete and pass threes full courses, excluding General Studies and Critical Thinking. Grade B/ grade 6 in GCSE English Language and Mathematics and grade C/grade 4 in five other GCSE subjects. Applicants with grade C/grade 4 in GCSE English Language and grade B/grade 6 in GCSE English Literature will also be considered**<br>
+           </p>
+
+        <p><strong>IB:</strong> Completion of three subjects at Higher Level and three subjects at Standard Level. Grade B/grade 6 in GCSE English Language and Mathematics and grade C/grade 4 in five other GCSE subjects. Applicants with grade C/grade 4 in GCSE English Language and grade B/grade 6 in GCSE English Literature will also be considered**.</p>
+
+        <p><strong>BTEC:</strong> Complete and pass a BTEC Level 3 Extended Diploma. Grade B/ grade 6 in GCSE English Language and Mathematics and grade C/grade 4 in five other GCSE subjects. Applicants with grade C/grade 4 in GCSE English Language and grade B/grade 6 in GCSE English Literature will also be considered**<br>
+           </p>
+
+        <p><em>**You must also meet at least two of the <a href="http://www.wbs.ac.uk/courses/undergraduate/foundation-year/apply/">Widening Participation criteria</a> listed on the WBS website.</em> </p>
+
+      </div>
+
+      <div class="tab-pane fade" id="course-tab-3"> 
+        <h5><strong>Foundation Year</strong> </h5>
+
+        <p>Modules can include the following:</p>
+
+        <ul>
+          <li>Foundations of Business </li>
+          <li> Academic Practice</li>
+          <li> Problem Solving in Organisations</li>
+          <li> Statistics</li>
+          <li> Individual Project</li>
+          <li> Mathematics </li>
+        </ul>
+
+        <h5><strong>Year One </strong>(as per Accounting and Finance BSc)</h5>
+
+        <ul>
+          <li> Foundations, Skills and Debates</li>
+          <li>Introduction to Financial Accounting</li>
+          <li>Foundations of Management Accounting</li>
+          <li>Financial Management</li>
+          <li>Economics for Business</li>
+          <li>Business Law 1</li>
+          <li>Business Statistics</li>
+          <li>Management, Organisations and Society*</li>
+          <li>Business Analytics^</li>
+        </ul>
+
+         </div>
+
+    
+    </div>
+
+
+{% endblock %}

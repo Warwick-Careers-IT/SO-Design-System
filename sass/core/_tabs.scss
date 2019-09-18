@@ -1,0 +1,99 @@
+/* Improve Bootstrap togglable tabs */
+
+.nav-tabs {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-tabs li {
+    margin: 0 10px -1px 0;
+}
+
+.nav-tabs li h2 {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 0 2px 0;
+}
+
+.hp-layout .tab-pane {
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Don't use max-width set in site assets > undergraduate-id7.less */
+@media (min-width: 992px) {
+    .nav-tabs li {
+        max-width: 1000px;
+    }
+}
+
+.nav-tabs {
+    border-bottom-color: $so-brand__secondary__dark;
+}
+
+.nav-tabs>li>a {
+    background-color: $so-brand__primary__50;
+    border-color: $so-brand__primary__900;
+    color: $so-text__primary;
+    transition: background .3s cubic-bezier(.44, 0, .35, 1)
+}
+
+.nav-tabs>li>a:before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 3px;
+    background: $so-brand__primary__light;
+    top: 0;
+    left: 0;
+    transition: width .3s cubic-bezier(.44, 0, .35, 1);
+}
+
+.nav-tabs>li>a:focus,
+.nav-tabs>li>a:hover {
+    background-color: $so-brand__primary__50;
+    border-color: $so-brand__primary__dark;
+}
+
+.nav-tabs>li>a:focus:before,
+.nav-tabs>li>a:hover:before {
+    width: 100%
+}
+
+.nav-tabs>li.open>a,
+.nav-tabs>li.open>a:focus,
+.nav-tabs>li.open>a:hover {
+    background-color: #efeaf0;
+    border-color: $so-brand__secondary__dark $so-brand__secondary__dark $so-brand__secondary__dark
+}
+
+.nav-tabs>li.open>a:before,
+.nav-tabs>li.open>a:focus:before,
+.nav-tabs>li.open>a:hover:before {
+    background: $so-brand__secondary__dark;
+    width: 100%
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    border-color: $so-brand__secondary__dark $so-brand__secondary__dark transparent
+}
+
+.nav-tabs>li.active>a:before,
+.nav-tabs>li.active>a:focus:before,
+.nav-tabs>li.active>a:hover:before {
+    background: $so-brand__secondary;
+    width: 100%;
+}
+
+.nav-tabs>li.disabled>a {
+    color: #555
+}
+
+.nav-tabs>li.disabled>a:focus,
+.nav-tabs>li.disabled>a:hover {
+    background-color: #ded6e1
+}

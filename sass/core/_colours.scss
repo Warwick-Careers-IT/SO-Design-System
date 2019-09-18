@@ -18,6 +18,19 @@
     color: $so-brand__primary__50;
 }
 
+/* primary background highlights */ 
+
+.so-bd-highlight-blue {
+    background-color: $so-brand__primary;
+    border: 1px solid $so-brand__primary;
+}
+
+.so-bd-highlight-blue__light {
+    background-color: $so-brand__primary__light;
+    border: 1px solid $so-brand__primary__light;
+}
+
+
 
 /* secondary brand colours  */
 .so-green {
@@ -34,4 +47,14 @@
 
 .so-green__300 {
     color: $so-brand__secondary__300
+}
+
+.so-bd-highlight-green {
+    background-color: $so-brand__secondary;
+    border: 1px solid $so-brand__secondary__dark;
+}
+
+.so-bd-highlight-green__light {
+    background-color: $so-brand__secondary__light;
+    border: 1px solid $so-brand__secondary__dark;
 }

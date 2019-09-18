@@ -1,0 +1,9 @@
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+    background-color: $so-brand__secondary__dark;
+    border-color: $so-brand__secondary__dark;
+    color: #fff;
+}
+
+.list-group-item i { margin-right: 10px; }

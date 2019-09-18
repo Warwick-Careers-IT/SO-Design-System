@@ -1,0 +1,53 @@
+{% extends 'content-75_25-components.njk' %}
+<!-- level two nav -->
+{% block navLevelTwo %}
+<nav class="navbar navbar-secondary" role="navigation">
+  <ul class="nav navbar-nav">
+    <li class="nav-breadcrumb first" > <a
+        href="#">Components</a></li>
+    <li class="active nav-breadcrumb second last " > 
+    <a>Warning</a></li>
+  </ul>
+</nav>
+{% endblock %}
+<!-- end level two nav -->
+
+
+{% block pagetitle %}
+Warning
+{% endblock %}
+
+{% block column_1_content %}
+
+{% endblock %}
+
+{% block column_2_content %}
+
+<p>Use the warning text component when you need to warn users about something important, such as legal consequences of an action, or lack of action, that they might take.</p>
+
+<br>
+
+<div class="so-warning-text d-flex align-items-center">
+    <i class="fas fa-exclamation-circle fa-2x so-warning-icon"></i> 
+    <span> Applications close 3rd of December 2019</span>
+</div>
+
+<br>
+
+
+<pre id="button-1" class="line-numbers language-markup snippet">
+<code>
+ <script type="prism-html-markup">
+<div class="so-warning-text">
+    <i class="fas fa-exclamation-circle fa-2x so-warning-icon"></i> 
+    <span>Applications close 3rd of December 2019</span>
+</div>
+  </script>
+</code>
+</pre>
+<button class="btn btn-default" data-clipboard-target="#button-1">Copy snippet <i class="fal fa-copy"></i></button>
+
+
+
+
+{% endblock %}
