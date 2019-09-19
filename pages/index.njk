@@ -5,9 +5,7 @@
 <section class="hero-image">
   <picture class="embed-responsive-item">
     <source srcset="/static-files/images/banners/main-banner-so.png" media="(min-width: 1200px)">
-    <img
-      src="/static-files/images/banners/main-banner-so.png"
-      alt="Postgraduate">
+    <img src="/static-files/images/banners/main-banner-so.png" alt="Postgraduate">
   </picture>
   <div class="callout-button">
     <h2>
@@ -18,7 +16,7 @@
 
 
     </h2>
-    <a href="/getting-started/getting-started.html" class="btn btn-block btn-brand-secondary btn-lg">
+    <a href="/getting-started/getting-started.html" class="btn btn-block btn-brand-primary btn-lg">
       <!-- CTA button text shown on tablet and desktop -->
       <span class="hidden-xs">Get Started</span>
       <!-- CTA button text shown only on mobile -->
@@ -28,45 +26,60 @@
   </div>
 </section>
 
-<div class="row equal-height-md">
-  <div class="col-md-4">
-    <section class="boxstyle_ box1">
 
-      <h2><a href="/styles/styles.html">Styles</a></h2>
-
-      <p>Make your service look like Student opportunity with guides for applying layout, typography, colour and images.</p>
-
-      
-      <p class="so-text__bold" ><a href="/styles/styles.html">Browse styles</a></p>
-      
-
-
-    </section>
+<div class="card-deck">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title"><a href="/styles/styles.html">Styles</a></h5>
+      <p class="card-text">Make your service look like Student opportunity with guides for applying layout, typography, colour and images.</p>
+    </div>
+     <div class="card-footer">
+       <a href="/styles/styles.html" class="btn btn-brand-secondary btn-lg">
+        <span>READ MORE</span>
+        <i class="fal fa-chevron-right"></i>
+      </a>
+    </div>
+    
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title"><a href="/components/components.html">Components</a></h5>
+      <p class="card-text">Save time with reusable, accessible components for forms, navigation, panels, tables and more.</p>
+    </div>
+     <div class="card-footer">
+       <a href="/components/components.html" class="btn btn-brand-secondary btn-lg">
+        <span>READ MORE</span>
+        <i class="fal fa-chevron-right"></i>
+      </a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+       <h5 class="card-title"><a href="/patterns/patterns.html">Patterns</a></h5>
+      <p class="card-text">Common layout patterns using components and styles</p>
+    </div>
+     <div class="card-footer">
+       <a href="/patterns/patterns.html" class="btn btn-brand-secondary btn-lg">
+        <span>READ MORE</span>
+        <i class="fal fa-chevron-right"></i>
+      </a>
+    </div>
   </div>
 
-  <div class="col-md-4">
-    <section class="boxstyle_ box1">
-
-
-      <h2><a href="/components/components.html">Components</a></h2>
-
-      <p>Save time with reusable, accessible components for forms, navigation, panels, tables and more..</p>
-
-      <p class="so-text__bold" ><a href="/components/components.html">Browse components</a></p>
-    </section>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title"><a href="/utils/utilities.html"> Utilities </a></h5>
+      <p class="card-text">CSS helpers to speed up common styling issues</p>
+    </div>
+     <div class="card-footer">
+       <a href="/utils/utilities.html" class="btn btn-brand-secondary btn-lg">
+        <span>READ MORE</span>
+        <i class="fal fa-chevron-right"></i>
+      </a>
+    </div>
   </div>
-
-  <div class="col-md-4">
-    <section class="boxstyle_ box1">
-
-      <h2><a href="/patterns/patterns.html">Patterns</a></h2>
-
-      <p>Help users complete common tasks like entering names and addresses, filling in forms and creating accounts.</p>
-      <p class="so-text__bold" ><a href="/patterns/patterns.html">Browse patterns</a></p>
-    </section>
-  </div>
-
 </div>
+
 
 
 {% endblock %}

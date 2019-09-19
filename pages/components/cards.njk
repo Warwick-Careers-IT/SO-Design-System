@@ -1,0 +1,60 @@
+{% extends 'content-75_25-components.njk' %}
+<!-- level two nav -->
+{% block navLevelTwo %}
+<nav class="navbar navbar-secondary" role="navigation">
+  <ul class="nav navbar-nav">
+    <li class="nav-breadcrumb first"> <a href="#">Components</a></li>
+    <li class="active nav-breadcrumb second last ">
+      <a>Cards</a></li>
+  </ul>
+</nav>
+{% endblock %}
+<!-- end level two nav -->
+
+
+{% block pagetitle %}
+Cards
+{% endblock %}
+
+{% block column_1_content %}
+
+{% endblock %}
+
+{% block column_2_content %}
+<p>
+  Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and
+  customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components. They have
+  no margin by default, so use spacing utilities as needed. They have no width by default to will fill parent container.
+</p>
+
+
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <img src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><a>Vacancies</a></h5>
+        <p class="card-text">
+          On Warwick's own vacancy database, <strong>myAdvantage</strong>, we have a huge variety of jobs, internships
+          and graduate positions available to help you find a unique role to suit you.
+        </p>
+      </div>
+      <div class="card-footer">
+        <a href="#" class="btn btn-brand-secondary btn-lg">
+          <span>SEARCH</span>
+          <i class="fal fa-chevron-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+
+  </div>
+</div>
+
+<br>
+
+<p>For more complex layouts see card layouts in the <a href="/patterns/patterns.html"> pattern section </a> </p>
+
+{% endblock %}

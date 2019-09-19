@@ -42,7 +42,7 @@
       <div class="id7-utility-masthead">
         <nav class="id7-utility-bar">
           <!-- Include the utility bar component here if used -->
-          <span class='versioning'> <strong> SO Design System v1.1 / Last published:</strong>  2019/09/18 04:42 p.m.</span>
+          <span class='versioning'> <strong> SO Design System v1.1 / Last published:</strong>  2019/09/19 12:24 p.m.</span>
         </nav>
 
         <div class="id7-masthead">
@@ -119,9 +119,9 @@
 
 <nav class="navbar navbar-secondary" role="navigation">
   <ul class="nav navbar-nav">
-    <li class="nav-breadcrumb first"> <a href="#">Patterns</a></li>
+    <li class="nav-breadcrumb first"> <a href="#">Components</a></li>
     <li class="active nav-breadcrumb second last ">
-      <a>Equal Height Columns with Colour</a></li>
+      <a>Cards</a></li>
   </ul>
 </nav>
 
@@ -137,33 +137,57 @@
                 <div class="column-1">
                     <div class="column-1-content">
                         <nav class="app-subnav">
+          <ul class="app-subnav__section">
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/accordion.html">Accordion</a>
+              
+            </li>
+          
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/buttons.html">Buttons</a>
+            </li>
 
-  <ul class="app-subnav__section">
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/cards.html">Cards</a>
+            </li>
+          
+          
+            
+          
+          
+            
+          
+            
+          
+            
+          
 
-    <li class="app-subnav__section-item">
-      <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
-        href="/patterns/equal-height-boxes.html">Equal height Boxes</a>
-
-    </li>
-
-
-    
-
-
-    <li class="app-subnav__section-item">
-      <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/patterns/step-by-step-navigation/">Step
-        by step navigation</a>
-
-    </li>
-
-
-  </ul>
-
-
-
-
-
-
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/inset-text.html">Inset text</a>
+              
+            </li>
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/list-group.html">List Group</a>
+            </li>
+      
+          
+            
+          
+            <li class="app-subnav__section-item ">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/tabs.html">Tabs</a>
+            </li>
+          
+            
+          
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/warning.html">Warning text</a>
+            </li>
+          
+          </ul>
+        
 </nav>
                     </div>
                 </div>
@@ -171,45 +195,45 @@
                     <div class="column-2-content">
                         <h1>
                             
-Equal Height Boxes
+Cards
 
                         </h1>
                         
+<p>
+  Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and
+  customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components. They have
+  no margin by default, so use spacing utilities as needed. They have no width by default to will fill parent container.
+</p>
 
-<style>
-.so-box { background-color: green; }
-</style>
 
-<div class="row equal-height equal-height-md">
-  <div class="col-sm-4  text-center">
 
-    <div class="boxstyle_ box5">
-      <i class="fa fa-4x fa fa-search"></i>
-          <h2>Vacancies</h2>
-          <p>On Warwick's own vacancy database, <strong>myAdvantage</strong>, we have a huge variety of jobs,
-            internships and graduate positions available to help you find a unique role to suit you.</p>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <img src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><a>Vacancies</a></h5>
+        <p class="card-text">
+          On Warwick's own vacancy database, <strong>myAdvantage</strong>, we have a huge variety of jobs, internships
+          and graduate positions available to help you find a unique role to suit you.
+        </p>
       </div>
-  </div>
-
-  <div class="col-sm-4  text-center">
-   <div class="boxstyle_ box5">
-          <i class="fa fa-4x fa-cogs" ></i>
-          <h2>Work experience</h2>
+      <div class="card-footer">
+        <a href="#" class="btn btn-brand-secondary btn-lg">
+          <span>SEARCH</span>
+          <i class="fal fa-chevron-right"></i>
+        </a>
+      </div>
     </div>
- </div>
+  </div>
+  <div class="col-sm-6">
 
-  <div class="col-sm-4 text-center">
-
-    <div class="boxstyle_ box5">
-      <i class="fa fa-4x fa-file" ></i>
-          <h2>CVs &amp; Applications</h2>
-          <p>Are your <strong>CVs, applications and cover letters</strong> on the right track? Work through our online
-            resources before you send them to prospective employers.</p>
-      </div>
- </div>
-
+  </div>
 </div>
 
+<br>
+
+<p>For more complex layouts see card layouts in the <a href="/patterns/patterns.html"> pattern section </a> </p>
 
 
                     </div>
