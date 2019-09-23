@@ -2,3 +2,72 @@
 .pagination>li span {
     color: #197b96
 }
+
+/* section  breaks */
+
+.so-section-break,
+.app-prose-scope hr {
+    margin: 0;
+    border: 0
+}
+
+.so-section-break--xl,
+.app-prose-scope hr {
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+@media (min-width: 40.0625em) {
+
+    .so-section-break--xl,
+    .app-prose-scope hr {
+        margin-top: 50px
+    }
+}
+
+@media (min-width: 40.0625em) {
+
+    .so-section-break--xl,
+    .app-prose-scope hr {
+        margin-bottom: 50px
+    }
+}
+
+.so-section-break--l {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+@media (min-width: 40.0625em) {
+    .so-section-break--l {
+        margin-top: 30px
+    }
+}
+
+@media (min-width: 40.0625em) {
+    .so-section-break--l {
+        margin-bottom: 30px
+    }
+}
+
+.so-section-break--m {
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+@media (min-width: 40.0625em) {
+    .so-section-break--m {
+        margin-top: 20px
+    }
+}
+
+@media (min-width: 40.0625em) {
+    .so-section-break--m {
+        margin-bottom: 20px
+    }
+}
+
+.so-section-break--visible,
+.app-prose-scope hr {
+    border-bottom: 1px solid #b1b4b6
+}

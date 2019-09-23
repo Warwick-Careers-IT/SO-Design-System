@@ -58,3 +58,21 @@
     background-color: $so-brand__secondary__light;
     border: 1px solid $so-brand__secondary__dark;
 }
+
+
+/* pack7.css colour over rides */
+
+.brand-bg {
+    background: $so-brand__secondary!important;
+    color: black!important;
+}
+
+.brand-text {
+    color: $so-brand__primary!important;
+}
+
+.brand-text a,
+.brand-text a:link,
+.brand-text a:visited {
+    color: $so-brand__primary !important
+}

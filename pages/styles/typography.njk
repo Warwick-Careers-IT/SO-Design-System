@@ -1,0 +1,73 @@
+{% extends 'content-75_25-styles.njk' %}
+<!-- level two nav -->
+{% block navLevelTwo %}
+<nav class="navbar navbar-secondary" role="navigation">
+  <ul class="nav navbar-nav">
+    <li class="nav-breadcrumb first"> <a href="#">Styles</a></li>
+    <li class="active nav-breadcrumb second last ">
+      <a>Typography</a></li>
+  </ul>
+</nav>
+{% endblock %}
+<!-- end level two nav -->
+
+
+{% block pagetitle %}
+Typography
+{% endblock %}
+
+{% block column_1_content %}
+
+
+
+{% endblock %}
+
+{% block column_2_content %}
+
+<p>H1 is reserved for use for main page heading only </p>
+
+<h2>Headings 2 - 24px</h2>
+<h3>Headings 3 - 22px</h3>
+<h4>Headings 3 - 20px</h4>
+
+<hr class="so-section-break so-section-break--l so-section-break--visible">
+
+<h3>Lead paragraph</h3>
+<p class="so-body-lead">
+A lead paragraph is an introductory paragraph that you can use at the top of a page to summarise the content. Lead paragraphs use 24px type on desktop and should only be used once per page if needed.
+</p>
+
+<h3>Normal paragraph</h3>
+<p>
+A normal paragraph uses 18px type on desktop .
+</p>
+
+<hr class="so-section-break so-section-break--l so-section-break--visible">
+<h3>Bulleted lists</h3>
+<p>
+Introduce bulleted lists with a lead-in line ending in a colon. Start each item with a lowercase letter, and do not use a full stop at the end.
+</p>
+<p>You can buy:</p>
+
+<ul class="so-list--bullet">
+  <li>apples</li>
+  <li>oranges</li>
+  <li>pears</li>
+</ul>
+<hr class="so-section-break so-section-break--l so-section-break--visible">
+
+<h3>Section break</h3>
+<p>You can use the so-section-break classes on an 'hr' element to create a thematic break between sections of content. so-section-break has class-based modifiers for different size margins.</p>
+
+<p>By default so-section-break is only visible by its margin. You can add the so-section-break--visible class to make it visible with a separator line.</p>
+
+<h4>XL Section break</h4>
+<hr class="so-section-break so-section-break--xl so-section-break--visible">
+
+<h4>L Section break</h4>
+<hr class="so-section-break so-section-break--l so-section-break--visible">
+
+<h4>M Section break</h4>
+<hr class="so-section-break so-section-break--m so-section-break--visible">
+
+{% endblock %}
