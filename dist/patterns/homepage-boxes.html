@@ -118,124 +118,212 @@
   </nav>
   
 
+<nav class="navbar navbar-secondary" role="navigation">
+  <ul class="nav navbar-nav">
+    <li class="nav-breadcrumb first"> <a href="#">Patterns</a></li>
+    <li class="active nav-breadcrumb second last ">
+      <a>Homepage Boxes</a></li>
+  </ul>
+</nav>
+
 </div>
 </header>
 
 <main class="id7-main-content-area" id="main">
-  <header>
-    <div class="id7-horizontal-divider">
-      <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" version="1.1" width="1130" height="41"
-        viewBox="0, 0, 1130, 41">
-        <path d="m 0,0.5 1030.48, 0 22.8,40 16.96,-31.4 16.96,31.4 22.8,-40 20,0" class="divider" stroke="#383838"
-          fill="none"></path>
-      </svg>
-    </div>
-    <div class="id7-page-title hidden">
-      <h1>
-        <a href="#"> Student opportunity </a> - Design System
-      </h1>
-    </div>
-  </header>
+    <header class="id7-main-content-header"></header>
 
-  <div class="id7-main-content">
+    <div id="main" class="id7-main-content-area">
+        <div class="id7-main-content">
+            <div class="layout layout-25-75">
+                <div class="column-1">
+                    <div class="column-1-content">
+                        <nav class="app-subnav">
 
-    <div class="layout layout-100 ">
-      <div class="column-1">
-        <div class="column-1-content">
+  <ul class="app-subnav__section">
 
-          <!-- homepage content start -->
-            
+    <li class="app-subnav__section-item">
+      <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+        href="/patterns/card-layouts.html">Card layouts</a>
+    </li>
 
-<section class="hero-image">
-  <picture class="embed-responsive-item">
-    <source srcset="/static-files/images/banners/main-banner-so.png" media="(min-width: 1200px)">
-    <img src="/static-files/images/banners/main-banner-so.png" alt="Postgraduate">
-  </picture>
-  <div class="callout-button">
-    <h2>
-      <span class="hero-image-tagline-line2">Design your website using standard styles, components and patterns</span>
-      <span class="hero-image-tagline-line1">Use this design system to make your service consistent with Student
-        Opportunity. Learn from the research and experience of the central team and avoid repeating work that’s already
-        been done.</span>
+    <li class="app-subnav__section-item">
+      <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+        href="/patterns/homepage-boxes.html">Homepage Boxes</a>
+    </li>
 
 
-    </h2>
-    <a href="/getting-started/getting-started.html" class="btn btn-block btn-brand-primary btn-lg">
-      <!-- CTA button text shown on tablet and desktop -->
-      <span class="hidden-xs">Get Started</span>
-      <!-- CTA button text shown only on mobile -->
-      <span class="visible-xs-inline">Get Started</span>
-      <i class="fal fa-chevron-right"></i>
-    </a>
-  </div>
-</section>
+
+  </ul>
 
 
-<div class="card-deck">
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title"><a href="/styles/styles.html">Styles</a></h5>
-      <p class="card-text">Make your service look like Student opportunity with guides for applying layout, typography, colour and images.</p>
-    </div>
-     <div class="card-footer">
-       <a href="/styles/styles.html" class="btn btn-brand-secondary btn-lg">
-        <span>READ MORE</span>
-        <i class="fal fa-chevron-right"></i>
-      </a>
-    </div>
-    
-  </div>
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title"><a href="/components/components.html">Components</a></h5>
-      <p class="card-text">Save time with reusable, accessible components for forms, navigation, panels, tables and more.</p>
-    </div>
-     <div class="card-footer">
-       <a href="/components/components.html" class="btn btn-brand-secondary btn-lg">
-        <span>READ MORE</span>
-        <i class="fal fa-chevron-right"></i>
-      </a>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-body">
-       <h5 class="card-title"><a href="/patterns/patterns.html">Patterns</a></h5>
-      <p class="card-text">Common layout patterns using components and styles</p>
-    </div>
-     <div class="card-footer">
-       <a href="/patterns/patterns.html" class="btn btn-brand-secondary btn-lg">
-        <span>READ MORE</span>
-        <i class="fal fa-chevron-right"></i>
-      </a>
-    </div>
-  </div>
 
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title"><a href="/utils/utilities.html"> Utilities </a></h5>
-      <p class="card-text">CSS helpers to speed up common styling issues</p>
-    </div>
-     <div class="card-footer">
-       <a href="/utils/utilities.html" class="btn btn-brand-secondary btn-lg">
-        <span>READ MORE</span>
-        <i class="fal fa-chevron-right"></i>
-      </a>
-    </div>
-  </div>
+
+
+
+</nav>
+                    </div>
+                </div>
+                <div class="column-2">
+                    <div class="column-2-content">
+                        <h1>
+                            
+Homepage Boxes
+
+                        </h1>
+                        
+<style>
+.hp-box {
+            padding-top: 35px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+
+        .hp-box:hover {
+            background-color: #4d9b87; 
+            color: black;
+        }
+
+
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0,0,0,0)
+}
+</style>
+
+
+
+<div class="row equal-height">
+            <div class="col-md-4">
+                <div class="box hp-box boxstyle_ box5">
+                    <i class="fa fa-4x fa-sun-o"></i>
+                    <h2> <a class="stretched-link" href="https://warwick.ac.uk/about/community/volunteers/volunteering/">Volunteer</a></h2>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="box hp-box boxstyle_ box5">
+                    <i class="fa fa-4x fa-sun-o"></i>
+                    <h2> <a class="stretched-link" href="https://warwick.ac.uk/about/community/volunteers/volunteering/">Volunteer</a></h2>
+                     <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="box hp-box boxstyle_ box5">
+                    <i class="fa fa-4x fa-sun-o"></i>
+                    <h2> <a class="stretched-link" href="https://warwick.ac.uk/about/community/volunteers/volunteering/">Volunteer</a></h2>
+                     <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos</p>
+                </div>
+            </div>
+
+             
 </div>
 
+<div class="so-warning-text d-flex align-items-center">
+    <i class="fas fa-exclamation-circle fa-2x so-warning-icon"></i> 
+    <span>This pattern is not in the current design system build. Use CSS below.</span>
+</div>
+
+<!-- snippet start -->
+<pre id="button-1" class="line-numbers language-markup snippet">
+<code>
+ <script type="prism-css-markup">
+.hp-box {
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.hp-box:hover {
+    background-color: #4d9b87; 
+    color: black;
+}
+.stretched-link::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: rgba(0,0,0,0)
+}
+</script>
+</code>
+</pre>
+<button class="btn btn-default" data-clipboard-target="#button-1">Copy snippet <i class="fal fa-copy"></i></button>
+
+<!-- snippet start -->
+<pre id="button-2" class="line-numbers language-markup snippet">
+<code>
+ <script type="prism-HTML-markup">
+       <div class="row equal-height">
+            <div class="col-md-4">
+                <div class="box hp-box boxstyle_ box5">
+                    <i class="fa fa-4x fa-sun-o"></i>
+                    <h2 class="text-center"> <a class="stretched-link" href="https://warwick.ac.uk/about/community/volunteers/volunteering/">Volunteer</a></h2>
+                    <p class="text-center">Join Warwick Volunteers</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="box hp-box boxstyle_ box5">
+                    <i class="fa fa-4x fa-cogs"></i>
+                    <h2 class="text-center"><a href="https://warwick.ac.uk/about/community/volunteers/resources/">Volunteer resources</a>
+                    </h2>
+                    <p class="text-center">Information and resources for volunteers</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="box hp-box boxstyle_ box5">
+                    <i class="fa fa-4x fa-users"></i>
+                    <h2><a href="https://warwick.ac.uk/about/community/volunteers/community/">Recruit volunteers</a>
+                    </h2>
+                    <p>Recruit volunteers to support your organisation or school</p>
+                </div>
+            </div>
 
 
-
-          <!-- HP content end -->
-
+            <div class="col-md-4">
+                <div class="box hp-box boxstyle_ box5">
+                    <i class="fa fa-4x fa-users"></i>
+                    <h2><a href="https://warwick.ac.uk/about/community/volunteers/community/">Recruit volunteers</a>
+                    </h2>
+                    <p>Recruit volunteers to support your organisation or school</p>
+                </div>
+            </div>
 
         </div>
-      </div>
-    </div>
-  </div>
-</main>
+</script>
+</code>
+</pre>
+<button class="btn btn-default" data-clipboard-target="#button-2">Copy snippet <i class="fal fa-copy"></i></button>
 
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</main>
 
 
 <footer class="id7-page-footer id7-footer-coloured">
