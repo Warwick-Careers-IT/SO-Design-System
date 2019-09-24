@@ -1386,7 +1386,6 @@ fieldset[disabled] .navbar-tertiary .btn-link:focus {
 
 .btn-brand-secondary__outlined {
   color: #0b0c0c !important;
-  background-color: none;
   border-color: #7eccb7;
   border-radius: 0;
   font-weight: 400;
@@ -2442,11 +2441,7 @@ fieldset[disabled] .navbar-tertiary .btn-link:focus {
   text-align: center;
   width: 1em;
   color: #7eccb7;
-  font-size: 26px;
-  --fa-primary-color: #fff;
-  --fa-secondary-opacity: 1;
-  --fa-secondary-color: #ef4050
-; }
+  font-size: 26px; }
 
 .id7-site-footer .map-column > a i {
   -webkit-transition: font-size .3s;
@@ -2485,11 +2480,7 @@ fieldset[disabled] .navbar-tertiary .btn-link:focus {
   color: #fff;
   font-size: 26px;
   top: 49%;
-  left: 55%;
-  --fa-primary-color: $so-brand__secondary;
-  --fa-secondary-opacity: 1;
-  --fa-secondary-color: #fff
-; }
+  left: 55%; }
 
 .gapping {
   margin-left: 1%; }
