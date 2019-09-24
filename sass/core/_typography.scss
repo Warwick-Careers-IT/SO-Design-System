@@ -98,19 +98,22 @@ a:active {
   font-weight: 400;
 }
 
+
+
 h2 {
-   font-size:24px;
-   font-weight: 600;
+   font-size:26px;
 }
 
 h3 {
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 24px;
 }
 
 h4 {
+  font-size: 22px;
+}
+
+h5 {
   font-size: 20px;
-  font-weight: 600;
 }
 
 
@@ -118,6 +121,9 @@ h4 {
   font-weight: 600;
 }
 
+.so-heading__heavy {
+  font-weight: 600;
+}
 
 /* extends base class in pack7.css */
 
@@ -160,18 +166,16 @@ blockquote {
 
 @media (min-width: 40.0625em) {
 
-  .govuk-body-l,
-  .govuk-body-lead {
+  .so-body-l,
+  .so-body-lead {
     font-size: 23px;
-    font-size: 1.5rem;
-    line-height: 1.25
   }
 }
 
 @media print {
 
-  .govuk-body-l,
-  .govuk-body-lead {
+  .so-body-l,
+  .so-body-lead {
     font-size: 18pt;
     line-height: 1.15
   }
@@ -179,8 +183,8 @@ blockquote {
 
 @media (min-width: 40.0625em) {
 
-  .govuk-body-l,
-  .govuk-body-lead {
+  .so-body-l,
+  .so-body-lead {
     margin-bottom: 30px
   }
 }

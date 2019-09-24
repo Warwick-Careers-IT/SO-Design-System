@@ -1,5 +1,3 @@
-/* primary */
-/* secondary */
 h1,
 h2,
 h3,
@@ -80,18 +78,21 @@ a:active {
   font-weight: 400; }
 
 h2 {
-  font-size: 24px;
-  font-weight: 600; }
+  font-size: 26px; }
 
 h3 {
-  font-size: 22px;
-  font-weight: 600; }
+  font-size: 24px; }
 
 h4 {
-  font-size: 20px;
-  font-weight: 600; }
+  font-size: 22px; }
+
+h5 {
+  font-size: 20px; }
 
 .so-text__link {
+  font-weight: 600; }
+
+.so-heading__heavy {
   font-weight: 600; }
 
 /* extends base class in pack7.css */
@@ -125,21 +126,19 @@ blockquote {
     font-family: sans-serif; } }
 
 @media (min-width: 40.0625em) {
-  .govuk-body-l,
-  .govuk-body-lead {
-    font-size: 23px;
-    font-size: 1.5rem;
-    line-height: 1.25; } }
+  .so-body-l,
+  .so-body-lead {
+    font-size: 23px; } }
 
 @media print {
-  .govuk-body-l,
-  .govuk-body-lead {
+  .so-body-l,
+  .so-body-lead {
     font-size: 18pt;
     line-height: 1.15; } }
 
 @media (min-width: 40.0625em) {
-  .govuk-body-l,
-  .govuk-body-lead {
+  .so-body-l,
+  .so-body-lead {
     margin-bottom: 30px; } }
 
 panel-group {
@@ -2255,152 +2254,6 @@ fieldset[disabled] .navbar-tertiary .btn-link:focus {
 .simple-quote blockquote {
   padding-top: 20px; }
 
-@media screen and (min-width: 768px) {
-  html.flexbox .hero-image .callout-button h2 {
-    display: block;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    position: relative;
-    min-height: 1px;
-    padding-left: 50px;
-    text-align: left;
-    text-transform: none; }
-  html.flexbox .hero-image .callout-button h2 .hero-image-tagline-line1 {
-    display: block;
-    font-size: 22px;
-    letter-spacing: 0px; }
-  html.flexbox .hero-image .callout-button h2 .hero-image-tagline-line2 {
-    display: block;
-    font-size: 26px;
-    letter-spacing: 0px; }
-  html.flexbox .hero-image .callout-button .btn {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    position: relative;
-    min-height: 1px;
-    padding-right: 10px;
-    padding-left: 10px; } }
-
-@media screen and (min-width: 768px) and (min-width: 768px) {
-  html.flexbox .hero-image .callout-button h2 {
-    float: left;
-    width: 50%;
-    margin-left: 41.66666667%; } }
-
-@media screen and (min-width: 768px) and (min-width: 768px) {
-  html.flexbox .hero-image .callout-button .btn {
-    float: left;
-    width: 33.33333333%;
-    margin-left: 50%; } }
-
-@media screen and (min-width: 768px) and (min-width: 1200px) {
-  html.flexbox .hero-image .callout-button .btn {
-    float: left;
-    width: 16.66666667%;
-    margin-left: 58.33333333%; } }
-
-.hero-image {
-  position: relative;
-  display: block;
-  height: 0;
-  padding: 0 0 38.5%;
-  margin: -20px -20px 36px; }
-
-@media screen and (min-width: 768px) {
-  html.flexbox .hero-image {
-    margin-bottom: 20px;
-    overflow: hidden; } }
-
-.hero-image .embed-responsive-item,
-.hero-image embed,
-.hero-image iframe,
-.hero-image object,
-.hero-image picture,
-.hero-image video {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0; }
-
-.hero-image .embed-responsive-item > img,
-.hero-image embed > img,
-.hero-image iframe > img,
-.hero-image object > img,
-.hero-image picture > img,
-.hero-image video > img {
-  width: 100%; }
-
-.hero-image .callout-button {
-  position: absolute;
-  width: 100%;
-  bottom: -36px;
-  left: 0; }
-
-.hero-image .callout-button h2 {
-  display: none; }
-
-@media screen and (min-width: 768px) {
-  html.flexbox .hero-image .callout-button {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; } }
-
-@media screen and (min-width: 768px) and (min-width: 768px) {
-  html.flexbox .hero-image .callout-button h2 {
-    float: left;
-    width: 50%;
-    margin-left: 0 !important; } }
-
-@media screen and (min-width: 768px) and (min-width: 1200px) {
-  html.flexbox .hero-image .callout-button h2 .hero-image-tagline-line1 {
-    font-size: 22px; } }
-
-@media screen and (min-width: 768px) and (min-width: 1200px) {
-  html.flexbox .hero-image .callout-button h2 .hero-image-tagline-line2 {
-    font-size: 40px;
-    margin-bottom: 15px; } }
-
-@media screen and (min-width: 768px) and (min-width: 768px) {
-  html.flexbox .hero-image .callout-button .btn {
-    float: left;
-    width: 25%;
-    margin-left: 50px;
-    margin-top: 10px; } }
-
-@media screen and (min-width: 768px) and (min-width: 1200px) {
-  html.flexbox .hero-image .callout-button .btn {
-    float: left;
-    width: 25%;
-    margin-left: 50px;
-    margin-top: 10px; } }
-
-.hero-image .embed-responsive-item {
-  -webkit-filter: brightness(70%);
-  filter: brightness(70%); }
-
-.hero-image-tagline-line1,
-.hero-image-tagline-line2 {
-  color: #fff !important; }
-
 /* please don't override component defaults with them */
 /* primary brand colours  */
 .so-blue {
@@ -2477,7 +2330,8 @@ fieldset[disabled] .navbar-tertiary .btn-link:focus {
 .id7-page-footer .id7-app-footer .h4,
 .id7-page-footer .id7-app-footer .h5,
 .id7-page-footer .id7-app-footer .h6 {
-  color: white; }
+  color: white;
+  font-weight: 400; }
 
 .id7-page-footer .id7-app-footer a,
 .id7-page-footer .id7-app-footer a:link,
@@ -2531,7 +2385,8 @@ fieldset[disabled] .navbar-tertiary .btn-link:focus {
 .id7-page-footer.id7-footer-coloured .id7-site-footer .h4,
 .id7-page-footer.id7-footer-coloured .id7-site-footer .h5,
 .id7-page-footer.id7-footer-coloured .id7-site-footer .h6 {
-  color: #383838; }
+  color: #383838;
+  font-weight: 400; }
 
 .id7-page-footer.id7-footer-coloured .id7-site-footer a,
 .id7-page-footer.id7-footer-coloured .id7-site-footer a:link,

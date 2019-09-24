@@ -1,7 +1,7 @@
 {
   "name": "warwick-SCS-prototype",
   "version": "1.0.0",
-  "description": "website proto type",
+  "description": "website prototyping system",
   "main": "index.js",
   "private": true,
   "scripts": {
