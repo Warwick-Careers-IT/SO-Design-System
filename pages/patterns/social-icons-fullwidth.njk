@@ -1,0 +1,55 @@
+{% extends 'content.njk' %}
+
+<!-- level two nav -->
+{% block navLevelTwo %}
+<nav class="navbar navbar-secondary" role="navigation">
+  <ul class="nav navbar-nav">
+    <li class="nav-breadcrumb first"> <a href="#">Patterns</a></li>
+    <li class="active nav-breadcrumb second last ">
+      <a>Social Icons</a></li>
+  </ul>
+</nav>
+{% endblock %}
+<!-- end level two nav -->
+
+
+{% block pagetitle %}
+Social icons
+{% endblock %}
+
+
+{% block main_content %}
+
+<style>
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons > a {
+    margin: 20px 10px;
+    font-size: 3.3em;
+}
+
+</style>
+
+<div class="social-icons">
+  <a class="so-brand__dark" title="Twitter" href="https://twitter.com/WarwickCareers">
+  <i class="fab fa-twitter-square"></i></a>
+
+<a class="so-green" title="Facebook" href="https://www.facebook.com/WarwickCareersCentre">
+<i class="fab fa-facebook-square"></i></a>
+
+
+<a class="so-green" title="Youtube" href="https://www.youtube.com/user/careersandskills">
+<i class="fab fa-youtube-square"></i></a>
+
+<a class="so-green" title="Careers Blog" href="http://careersblog.warwick.ac.uk/">
+<i class="fab fa-wordpress-simple"></i></a>
+
+</div>
+
+
+{% endblock %}

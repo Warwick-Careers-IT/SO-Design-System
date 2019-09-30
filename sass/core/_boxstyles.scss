@@ -1,4 +1,5 @@
 @media (max-width:767px) {
+
     .boxstyle_.box1,
     .boxstyle-sm.box1 {
         padding: 20px;
@@ -31,12 +32,6 @@
     border: 0;
     background: $so-brand__primary__50;
     color: $so-text__primary;
-    // a,
-    // a:link,
-    // a:visited {
-    //     color: $so-text__primary;
-    //     text-decoration-color: $so-text__primary;
-    // }
 }
 
 @media print {
@@ -239,99 +234,89 @@
     color: inherit
 }
 
-.boxstyle_.box3 {
-    border: 0;
-    background: #eee;
-    color: #383838;
-
-    a,
-    a:link,
-    a:visited {
-        color: $so-text__primary;
-        text-decoration-color: $so-text__primary;
-    }
-}
-
-.boxstyle-xs.box3 {
-   border: 0;
-   background: #eee;
-   color: #383838;
-    a,
-    a:link,
-    a:visited {
-        color: $so-text__primary;
-        text-decoration-color: $so-text__primary;
-    }
-}
-
-@media (min-width:768px) {
+/* box 3 */
+@media (max-width:767px) {
 
     .boxstyle_.box3,
     .boxstyle-sm.box3 {
-        background: none;
-        border: 1px solid $so-brand__secondary;
-        color: inherit
+        padding: 20px;
+        margin-left: -20px;
+        margin-right: -20px;
     }
 }
 
-@media (min-width:992px) {
+@media (max-width:991px) {
     .boxstyle-md.box3 {
-        background: none;
-        border: 1px solid $so-brand__secondary;
-        color: inherit
+        padding: 20px;
+        margin-left: -20px;
+        margin-right: -20px;
     }
 }
 
-@media (min-width:1200px) {
+@media (max-width:1199px) {
     .boxstyle-lg.box3 {
-        background: none;
-        border: 1px solid $so-brand__secondary;
-        color: inherit
+        padding: 20px;
+        margin-left: -20px;
+        margin-right: -20px;
     }
 }
 
-.boxstyle-xs.box4 {
-     border: 0;
-     background: $so-brand__secondary;
-     color: $so-text__primary;
-     
+.boxstyle_.box3,
+.boxstyle-xs.box3,
+.boxstyle-sm.box3,
+.boxstyle-md.box3,
+.boxstyle-lg.box3 {
+    background: none;
+    border: 1px solid $so-brand__secondary;
+    color: inherit;
+
+    a,
+    a:link,
+    a:visited {
+        color: $so-text__primary;
+        text-decoration-color: $so-text__primary;
+    }
 }
 
-.boxstyle_.box4 {
-    // a,
-    // a:link,
-    // a:visited {
-    //     color: $so-text__primary;
-    //     text-decoration-color: $so-text__primary;
-    // }
-}
 
-
-@media (min-width:768px) {
+/* box 4 */
+@media (max-width:767px) {
 
     .boxstyle_.box4,
     .boxstyle-sm.box4 {
-         border: 0;
-         background: $so-brand__secondary;
-         color: $so-text__primary;
+        padding: 20px;
+        margin-left: -20px;
+        margin-right: -20px;
     }
 }
 
-@media (min-width:992px) {
+@media (max-width:991px) {
     .boxstyle-md.box4 {
-         border: 0;
-         background: $so-brand__secondary;
-         color: $so-text__primary;
+        padding: 20px;
+        margin-left: -20px;
+        margin-right: -20px;
     }
 }
 
-@media (min-width:1200px) {
+@media (max-width:1199px) {
     .boxstyle-lg.box4 {
-         border: 0;
-         background: $so-brand__secondary;
-         color: $so-text__primary;
+        padding: 20px;
+        margin-left: -20px;
+        margin-right: -20px;
     }
 }
+
+.boxstyle_.box4,
+.boxstyle-xs.box4,
+.boxstyle-sm.box4,
+.boxstyle-md.box4,
+.boxstyle-lg.box4 {
+    border: 0;
+    background: $so-brand__secondary;
+    color: $so-text__primary;
+}
+
+/* box 5 */
 
 @media (max-width:767px) {
 
@@ -536,4 +521,19 @@
 .boxstyle-md.box5 blockquote.quotes,
 .boxstyle-lg.box5 blockquote.quotes {
     color: inherit
+}
+
+/* boxes with aligned buttons using flexbox*/
+.box-btn-b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.box-btn-b p {
+    flex-grow: 1;
+}
+
+.box-btn-b a {
+    margin-top: 15px;
 }

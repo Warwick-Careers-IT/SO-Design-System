@@ -120,9 +120,9 @@
 
 <nav class="navbar navbar-secondary" role="navigation">
   <ul class="nav navbar-nav">
-    <li class="nav-breadcrumb first"> <a href="#">Components</a></li>
+    <li class="nav-breadcrumb first"> <a href="#">Patterns</a></li>
     <li class="active nav-breadcrumb second last ">
-      <a>Components</a></li>
+      <a>Boxes with aligned buttons</a></li>
   </ul>
 </nav>
 
@@ -138,57 +138,33 @@
                 <div class="column-1">
                     <div class="column-1-content">
                         <nav class="app-subnav">
-          <ul class="app-subnav__section">
-          
-            <li class="app-subnav__section-item">
-              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/accordion.html">Accordion</a>
-              
-            </li>
-          
-          
-            <li class="app-subnav__section-item">
-              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/buttons.html">Buttons</a>
-            </li>
 
-            <li class="app-subnav__section-item">
-              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/cards.html">Cards</a>
-            </li>
-          
-          
-            
-          
-          
-            
-          
-            
-          
-            
-          
+  <ul class="app-subnav__section">
 
-            <li class="app-subnav__section-item">
-              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/inset-text.html">Inset text</a>
-              
-            </li>
-          
-            <li class="app-subnav__section-item">
-              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/list-group.html">List Group</a>
-            </li>
-      
-          
-            
-          
-            <li class="app-subnav__section-item ">
-              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/tabs.html">Tabs</a>
-            </li>
-          
-            
-          
-            <li class="app-subnav__section-item">
-              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="/components/warning.html">Warning text</a>
-            </li>
-          
-          </ul>
-        
+    <li class="app-subnav__section-item">
+      <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+        href="/patterns/card-layouts.html">Card layouts</a>
+    </li>
+
+    <li class="app-subnav__section-item">
+      <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+        href="/patterns/homepage-boxes.html">Homepage Boxes</a>
+    </li>
+     <li class="app-subnav__section-item">
+      <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+        href="/patterns/boxes-with-buttons.html">Boxes with aligned buttons</a>
+    </li>
+
+
+
+
+  </ul>
+
+
+
+
+
+
 </nav>
                     </div>
                 </div>
@@ -196,17 +172,73 @@
                     <div class="column-2-content">
                         <h1>
                             
-Components
+Boxes with aligned buttons
 
                         </h1>
                         
 
-<p>Components are reusable parts of the user interface that have been made to support a variety of applications.</p>
-<p>Individual components can be used in multiple different <a href="../patterns">patterns</a> and contexts. For example,
-  the <a href="../components/text-input">text input</a> component can be used to ask for an email address.</p>
-<p>If you site is setup with Student Opportunity site.css as default. All code examples in this section will render exactly as they do inside the Design System.</p>
+<p> Use class .box-btn-b on the box to make button elements align even with different text lengths.</p>
+
+  <div class="row equal-height"> 
+        <div class="col-md-4"> 
+            <div class="boxstyle_ box5 box-btn-b">
+                <h3>Taking notes effectively</h3>
+                <p>Develop the skills of <strong>notetaking</strong> learn how to decide what to write and tips and ideas for taking more affective notes.</p>
+                <a class="btn btn-lg btn-brand-secondary" title="Book academic study skills" href="http://www2.warwick.ac.uk/services/skills/events/notes/">
+                <span>BOOK</span>
+                 <i class="fal fa-chevron-right"></i>
+                </a> 
+            </div>
+        </div>
+      <div class="col-md-4">  
+        <div class="boxstyle_ box5 box-btn-b">
+            <h3>Speed reading</h3>
+            <p>Develop your reading skills by attending this workshop. You may find this particularly helpful in your first year </p>
+            <a class="btn btn-lg btn-brand-secondary" title="Book: speed reading" href="https://www2.warwick.ac.uk/services/skills/events/speedreading">
+             <span>BOOK</span>
+                 <i class="fal fa-chevron-right"></i>
+            </a> 
+        </div>
+        </div>
+
+      <div class="col-md-4">
+        <div class="boxstyle_ box5 box-btn-b"> 
+            <h3>Planning &amp; managing projects</h3>
+            <p>Introduction to project management. Projects can include include research, academic assignments, and running events </p>
+            <a class="btn btn-lg btn-brand-secondary" title="Book: Managing projects" href="https://warwick.ac.uk/services/skills/events/planning_projects">
+             <span>BOOK</span>
+                 <i class="fal fa-chevron-right"></i>
+            </a> 
+        </div>
+      </div>
+    </div>
+
+<div class="so-warning-text d-flex align-items-center">
+    <i class="fas fa-exclamation-circle fa-2x so-warning-icon"></i> 
+    <span>This pattern is not in the current design system build. Use CSS below for now.</span>
+</div>
 
 
+<!-- snippet start -->
+<pre id="button-1" class="line-numbers language-markup snippet">
+<code>
+ <script type="prism-css-markup">
+.box-btn-b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.box-btn-b p {
+    flex-grow: 1;
+}
+
+.box-btn-b a {
+    margin-top: 15px;
+}
+</script>
+</code>
+</pre>
 
 
 
