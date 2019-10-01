@@ -43,7 +43,7 @@
       <div class="id7-utility-masthead">
         <nav class="id7-utility-bar">
           <!-- Include the utility bar component here if used -->
-          <span class='versioning'> <strong> SO Design System v1.1 / Last published:</strong>  2019/09/30 12:18 p.m.</span>
+          <span class='versioning'> <strong> SO Design System v1.1 / Last published:</strong>  2019/10/01 04:04 p.m.</span>
         </nav>
 
         <div class="id7-masthead">
@@ -269,18 +269,47 @@ Homepage Boxes
 <code>
  <script type="prism-css-markup">
 
-.box-btn-b {
+@media (min-width: 768px) {
+    .equal-height>[class*=col-] {
+        flex-grow: 1;
+        flex-basis: 0;
+    }
+}
+.hp-box {
+    padding-top: 35px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
 }
-
-.box-btn-b p {
-    flex-grow: 1;
+.hp-box:hover {
+    background-color: #4d9b87;
+    color: black;
 }
-
-.box-btn-b a {
-    margin-top: 15px;
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0, 0, 0, 0)
+}
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons>a {
+    margin: 20px 10px;
+    font-size: 3.3em;
+}
+.section-more .btn {
+    margin: 10px 0px;
 }
 
 

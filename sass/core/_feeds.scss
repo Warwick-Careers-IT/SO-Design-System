@@ -1,0 +1,41 @@
+
+.ch-item {
+      position: relative;
+      display: block;
+      padding: 25px 25px;
+      margin-bottom: 10px;
+      background-color:  #7eccb7;
+      border: 1px solid #ddd;
+}
+
+.feedtoggle {margin-left: 5px;}
+
+.ch-item:focus,
+.ch-item:hover {
+    text-decoration: none;
+    background: #e6f2f9;
+}
+
+.ch-item h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+h2.ch-itemTitle {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.ch-startdate,
+.ch-enddate,
+.ch-venue,
+.ch-places
+ {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: black;
+    display: none;
+}
+.ch-summary {
+    margin: 10px 0px 30px 0px;
+}

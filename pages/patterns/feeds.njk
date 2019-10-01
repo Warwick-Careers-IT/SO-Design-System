@@ -1,0 +1,56 @@
+{% extends 'content-75_25-patterns.njk' %}
+<!-- level two nav -->
+{% block navLevelTwo %}
+<nav class="navbar navbar-secondary" role="navigation">
+  <ul class="nav navbar-nav">
+    <li class="nav-breadcrumb first"> <a href="#">Patterns</a></li>
+    <li class="active nav-breadcrumb second last ">
+      <a>Feeds / Event Listing</a></li>
+  </ul>
+</nav>
+{% endblock %}
+<!-- end level two nav -->
+{% block pagetitle %}
+Feeds / Event Listing
+{% endblock %}
+{% block column_1_content %}
+{% endblock %}
+{% block column_2_content %}
+<script>
+jQuery(document).ready(function ($) {
+   var url = "https://warwick.ac.uk";
+        $('.ch-item').each(function() {
+            var url = $(this).find('a').attr('href');
+            var element = $(this).find('.ch-itemDescription')
+            $('<a/>', {
+            'class': 'btn btn-brand-primary',
+            'text': 'Book Event',
+            'href' : url
+        }).appendTo(element);
+
+
+    }) 
+
+   $('<a/>', {
+    'class':'btn btn-brand-secondary__outlined feedtoggle',
+    'text':'Show Detail',
+}).on('click', function(){
+    var text = $(this).text();
+    $( ".ch-enddate, .ch-venue , .ch-places , .ch-startdate" ).toggle();
+    $('a.feedtoggle').text(
+        text == "Show Detail" ? "Hide Detail" : "Show Detail");
+}).appendTo('div.ch-itemDescription');
+});
+</script>
+<p>Styles MyAdvantage Feeds as List Group</p>
+<div class="so-warning-text d-flex align-items-center">
+    <i class="fas fa-exclamation-circle fa-2x so-warning-icon"></i> 
+    <span>This pattern is not in the current design system build. Use CSS/JS below on page</span>
+</div>
+<div class="row equal-height" style="margin-top: 20px"> 
+<div class="col-md-8"> 
+    <script type="text/javascript" src="https://myadvantage.warwick.ac.uk/rss/event.aspx?format=Javascript&amp;EventType=350%2c696%2c698&amp;hasPlaces=true&amp;bookingsNotClosed=true&amp;token=6EaJLfRtEmbFi16WQFuHvA2"></script>
+  </div>
+  <div class="col-md-4"> </div>
+</div>
+{% endblock %}
