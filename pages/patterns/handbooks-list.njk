@@ -1,0 +1,195 @@
+{% extends 'content-75_25-patterns.njk' %}
+
+<!-- level two nav -->
+{% block navLevelTwo %}
+    <nav class="navbar navbar-secondary" role="navigation">
+        <ul class="nav navbar-nav">
+            <li class="nav-breadcrumb first">
+                <a href="#">Patterns</a>
+            </li>
+            <li class="active nav-breadcrumb second last ">
+                <a>Documents Download
+                </a>
+            </li>
+        </ul>
+    </nav>
+{% endblock %}
+<!-- end level two nav -->
+
+{% block pagetitle %}
+    Document Downloads
+{% endblock %}
+
+{% block column_1_content %}{% endblock %}
+
+{% block column_2_content %}
+
+    <div class="so-warning-text d-flex align-items-center">
+        <i class="fas fa-exclamation-circle fa-2x so-warning-icon"></i>
+        <span>This pattern is not in the current design system build. Use CSS below for now.</span>
+    </div>
+
+    <!-- snippet start -->
+    <pre id="button-1" class="line-numbers language-markup snippet">
+<code>
+ <script type="prism-css-markup">
+   .box-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        @media (min-width: 500px) {
+            .box-grid {
+                grid-template-columns: 3fr 1fr;
+                align-items: center;
+            }
+
+            .box-grid > h3 {
+                grid-column: 1 / 3;
+                margin: 0 1em 0 0;
+            }
+
+            .box-grid > .btn {
+                grid-column: 3 / 4;
+            }
+        }
+</script>
+</code>
+</pre>
+
+    <style>
+        .box-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        @media (min-width: 500px) {
+            .box-grid {
+                grid-template-columns: 3fr 1fr;
+                align-items: center;
+            }
+
+            .box-grid > h3 {
+                grid-column: 1 / 3;
+                margin: 0 1em 0 0;
+            }
+
+            .box-grid > .btn {
+                grid-column: 3 / 4;
+            }
+        }
+    </style>
+
+    <div class="col-md-12">
+        <div class="boxstyle_ box2 box-grid">
+            <h3>Applied Linguistics</h3>
+            <a class="btn btn-lg btn-brand-secondary" href="https://warwick.ac.uk/study/studyabroad/outbound/departmental-handbooks/cal_study_abroad_student_handbook_2019-20.pdf" target="_blank" rel="noopener">VIEW HANDBOOK
+            </a>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="boxstyle_ box2 box-grid">
+            <h3>Chemistry</h3>
+            <a class="btn btn-lg btn-brand-secondary" href="https://warwick.ac.uk/facstudents/international/yearabroad/outbound/" rel="noopener">VIEW HANDBOOK
+            </a>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="boxstyle_ box2 box-grid">
+            <h3>Engineering</h3>
+            <a class="btn btn-lg btn-brand-secondary" href="https://warwick.ac.uk/study/importantstaffinformation/bsc_international_management_year_abroad_handbook_2019_2020_1.pdf" rel="noopener">VIEW HANDBOOK
+            </a>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="boxstyle_ box2 box-grid">
+            <h3>English and Comparative Literary Studies</h3>
+            <a class="btn btn-lg btn-brand-secondary" href="https://warwick.ac.uk/study/studyabroad/outbound/departmental-handbooks/ecls_year_abroad_handbook_2019-20.pdf" target="_blank" rel="noopener">VIEW HANDBOOK
+            </a>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="boxstyle_ box2 box-grid">
+            <h3>History of Art</h3>
+            <a class="btn btn-lg btn-brand-secondary" href="https://warwick.ac.uk/study/importantstaffinformation/bsc_international_management_year_abroad_handbook_2019_2020_1.pdf" rel="noopener">VIEW HANDBOOK
+            </a>
+        </div>
+    </div>
+
+    <div class="col-md-12">
+
+        <h2>Languages - SMLC</h2>
+        <div class="column-2-content">
+
+            <ul class="nav nav-tabs" id="eng-tabs">
+                <li class="active">
+                    <a data-toggle="tab" href="#course-tab-1" aria-expanded="true">Overview</a>
+                </li>
+                <li class="">
+                    <a data-toggle="tab" href="#course-tab-2" aria-expanded="false">French</a>
+                </li>
+                <li class="">
+                    <a data-toggle="tab" href="#course-tab-3" aria-expanded="false">German</a>
+                </li>
+                <li class="">
+                    <a data-toggle="tab" href="#course-tab-4" aria-expanded="false">Hispanic</a>
+                </li>
+                <li class="">
+                    <a data-toggle="tab" href="#course-tab-5" aria-expanded="false">Italian</a>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="eng-tabs-content">
+
+                <div class="tab-pane fade active in" id="course-tab-1">
+                    <div class="boxstyle_ box2 box-grid">
+                        <h3>Languages - SMLC</h3>
+                        <a class="btn btn-lg btn-brand-secondary" href="https://warwick.ac.uk/study/studyabroad/outbound/departmental-handbooks/handbook_template_version_7_14.8.18year_abroad.docx" target="_blank" rel="noopener">VIEW HANDBOOK
+                        </a>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="course-tab-2">
+                    <div class="boxstyle_ box2 box-grid">
+                        <h3>French</h3>
+                        <a class="btn btn-lg btn-brand-secondary" href="https://warwick.ac.uk/study/studyabroad/outbound/departmental-handbooks/handbook_template_version_7_14.8.18year_abroad.docx" target="_blank" rel="noopener">VIEW HANDBOOK
+                        </a>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="course-tab-3">
+                    <div class="boxstyle_ box2 box-grid">
+                        <h3>German</h3>
+                        <a class="btn btn-lg btn-brand-secondary" href="https://warwick.ac.uk/study/studyabroad/outbound/departmental-handbooks/handbook_template_version_7_14.8.18year_abroad.docx" target="_blank" rel="noopener">VIEW HANDBOOK
+                        </a>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="course-tab-4">
+
+                    <div class="boxstyle_ box2 box-grid">
+                        <h3>Hispanic
+                        </h3>
+                        <a class="btn btn-lg btn-brand-secondary" href="https://warwick.ac.uk/study/studyabroad/outbound/departmental-handbooks/handbook_template_version_7_14.8.18year_abroad.docx" target="_blank" rel="noopener">VIEW HANDBOOK
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="tab-pane fade" id="course-tab-5">
+
+                    <div class="boxstyle_ box2 box-grid">
+                        <h3>Italian
+                        </h3>
+                        <a class="btn btn-lg btn-brand-secondary" href="https://warwick.ac.uk/study/studyabroad/outbound/departmental-handbooks/handbook_template_version_7_14.8.18year_abroad.docx" target="_blank" rel="noopener">VIEW HANDBOOK
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+{% endblock %}
