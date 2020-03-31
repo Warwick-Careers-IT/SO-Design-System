@@ -35,7 +35,7 @@ panel-group {
 
 
 
-.panel-group .panel .panel-heading h4 a:not(.collapsed) i:before {
+.so-accordion.panel-group .panel .panel-heading h4 a:not(.collapsed) i:before {
     content: "-";
     font-size: 50px;
     line-height: 10px;
@@ -59,4 +59,3 @@ panel-group {
     border-top: none;
     margin-top: 0;
 }
-
